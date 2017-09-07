@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Clear Fix */
+/* add the class .group in html to floated elements */
+.group::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+* html .group
