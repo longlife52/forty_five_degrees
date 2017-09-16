@@ -1,8 +1,8 @@
-# Project - Resume, Lisa Long
+# Semester Project - MMC6145, Lisa Long
 
 ## Github Project Link
 [Lisa's Project on Github.]()
-[Here's the link to my Resume on my web host.]()
+[Here's the link to the project on my web host.]()
 [Here's the project on W3C's Validator.]()
 [Here's the project on the HTML5 Outliner.]()
 
