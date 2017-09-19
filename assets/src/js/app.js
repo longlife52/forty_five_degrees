@@ -1,3 +1,5 @@
+//@prepros-append vendor/jquery-3.2.1.js
+
 //= include ../../../bower_components/jquery/dist/jquery.js
 //= include ../../../bower_components/jquery.fitvids/jquery.fitvids.js
 
