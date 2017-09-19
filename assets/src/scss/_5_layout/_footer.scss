@@ -1,9 +1,22 @@
-/*------------------------------------*\
-    #FOOTER
-\*------------------------------------*/
-.footer {
 
-	.copyright {
-		
-	}
+/* #FOOTER */
+.icon {
+    fill: $white;
+}
+
+.icon:hover {
+    fill: $red;
+}
+
+.footer {
+    background-color: $black;
+
+    .copyright {
+        color: $red;
+    }
+
+    h2 {
+        color: $white;
+        font-family: $archivo;
+    }
 }
