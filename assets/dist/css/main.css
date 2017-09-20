@@ -390,25 +390,38 @@ input[type=submit] {
 }
 
 /* #FOOTER */
-.icon {
-  fill: #fafafa;
-}
-
-.icon:hover {
-  fill: #e44839;
-}
-
 .footer {
   background-color: #0b0c10;
 }
 
-.footer .copyright {
-  color: #e44839;
-}
-
 .footer h2 {
   color: #fafafa;
-  font-family: "Archivo Narrow";
+  text-align: center;
+}
+
+.footer p {
+  text-align: center;
+  color: #fafafa;
+}
+
+.footer .icon {
+  fill: #fafafa;
+  height: 3em;
+  display: block;
+  margin: auto;
+}
+
+.footer .icon:hover {
+  fill: #66fcf1;
+}
+
+.footer p {
+  text-align: center;
+  color: #fafafa;
+}
+
+.footer .copyright {
+  color: white;
 }
 
 /*------------------------------------*    #PIECES
