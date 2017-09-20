@@ -272,6 +272,14 @@ input[type=submit] {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .nav li {
