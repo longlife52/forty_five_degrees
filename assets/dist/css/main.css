@@ -342,11 +342,73 @@ input[type=submit] {
 \*------------------------------------*/
 /*------------------------------------*    #TYPOGRAPHY
 \*------------------------------------*/
-/*------------------------------------*    #BUTTONS
-\*------------------------------------*/
+/* #BUTTONS */
+.center-text {
+  text-align: center;
+}
+
+/* ghost buttons */
+.button-box {
+  padding: 3em 0 3em 0;
+}
+
+/* teal and white */
+.btn_teal {
+  display: inline-block;
+  width: 12.5em;
+  font-weight: bold;
+  padding: 0.5em;
+  color: #6e3667;
+  border: 0.1875em solid #66fcf1;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.btn_teal:hover,
+.btn_teal:active {
+  background-color: #66fcf1;
+  color: #0b0c10;
+  -webkit-transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+/* white button */
+.ghost-button-two {
+  display: inline-block;
+  width: 12.5em;
+  font-weight: bold;
+  padding: 0.5em;
+  color: #f5f3fd;
+  border: 0.1875em solid #f5f3fd;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.ghost-button-two:hover,
+.ghost-button-two:active {
+  background-color: #f5f3fd;
+  color: #6e3667;
+  -webkit-transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
 /*------------------------------------*    #LAYOUT
 \*------------------------------------*/
 /*  #HEADER */
+.hide {
+  display: none;
+}
+
 /*  #NAV */
 .nav {
   background: #0b0c10;
@@ -394,7 +456,8 @@ input[type=submit] {
   background-color: #0b0c10;
 }
 
-.footer h2 {
+.footer h2,
+.footer h4 {
   color: #fafafa;
   text-align: center;
 }
