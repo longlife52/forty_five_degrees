@@ -329,8 +329,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/*------------------------------------*    #HR
-\*------------------------------------*/
+/* #HR */
 .hr--space {
   background: none;
   border: none;
@@ -454,6 +453,7 @@ input[type=submit] {
 /* #FOOTER */
 .footer {
   background-color: #0b0c10;
+  /* ::after on h2 creates the line from answers.squarespace.com */
 }
 
 .footer h2,
@@ -462,9 +462,26 @@ input[type=submit] {
   text-align: center;
 }
 
+.footer h2 {
+  padding: 3em 0 1em 0;
+  font-size: 3em;
+}
+
+.footer h2::after {
+  background: none repeat scroll 0 0 #66fcf1;
+  bottom: -0.5em;
+  content: "";
+  display: block;
+  height: 0.125em;
+  position: relative;
+  width: 2.25em;
+  margin: auto;
+}
+
 .footer p {
   text-align: center;
   color: #fafafa;
+  font-size: 1.5em;
 }
 
 .footer .icon {
@@ -485,6 +502,8 @@ input[type=submit] {
 
 .footer .copyright {
   color: white;
+  font-size: 0.75em;
+  padding: 2em 0 2em 0;
 }
 
 /*------------------------------------*    #PIECES
