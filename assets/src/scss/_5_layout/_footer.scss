@@ -38,6 +38,7 @@
         height: 3em;
         display: block;
         margin: auto;
+        padding-bottom: 2em;
     }
 
     .icon:hover {
@@ -54,4 +55,26 @@
         font-size: 0.75em;
         padding: 2em 0 2em 0;
     }
+}
+
+.form-area {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0 6em 0;
+}
+
+.flex-form {
+    display: flex;
+}
+
+input[type=text] {
+    background-color: $black;
+    color: $white;
+    font-size: 1em;
+    border-bottom: solid 0.125em $bright_teal;
+}
+
+input[type=submit] {
+    background-color: $red;
+    color: $white;
 }

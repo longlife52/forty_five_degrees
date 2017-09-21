@@ -1,8 +1,7 @@
 
 /*  #HEADER */
-
 .hide {
-  display:none;
+    display: none;
 }
 
 header {
@@ -10,11 +9,10 @@ header {
 }
 
 /*  #NAV */
-
 .nav {
     background: $black;
 
-	ul {
+    ul {
         display: flex;
         list-style-type: none;
         padding: 0;
@@ -23,19 +21,19 @@ header {
         justify-content: center;
         padding: 2em 0 2em 0;
 
-		> li {
+        li {
             flex: 1;
             text-align: center;
 
-			> a {
+            a {
                 color: $white;
                 text-decoration: none;
                 font-family: $archivo;
 
-				&:hover {
+                &:hover {
                     color: $bright_teal;
-				}
-			}
-		}
-	}
+                }
+            }
+        }
+    }
 }

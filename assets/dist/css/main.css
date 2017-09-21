@@ -354,7 +354,7 @@ input[type=submit] {
 /* teal and white */
 .btn_teal {
   display: inline-block;
-  width: 12.5em;
+  width: 10em;
   font-weight: bold;
   padding: 0.5em;
   color: #6e3667;
@@ -432,7 +432,7 @@ input[type=submit] {
   padding: 2em 0 2em 0;
 }
 
-.nav ul > li {
+.nav ul li {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -440,13 +440,13 @@ input[type=submit] {
   text-align: center;
 }
 
-.nav ul > li > a {
+.nav ul li a {
   color: #fafafa;
   text-decoration: none;
   font-family: "Archivo Narrow";
 }
 
-.nav ul > li > a:hover {
+.nav ul li a:hover {
   color: #66fcf1;
 }
 
@@ -489,6 +489,7 @@ input[type=submit] {
   height: 3em;
   display: block;
   margin: auto;
+  padding-bottom: 2em;
 }
 
 .footer .icon:hover {
@@ -504,6 +505,37 @@ input[type=submit] {
   color: white;
   font-size: 0.75em;
   padding: 2em 0 2em 0;
+}
+
+.form-area {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1em 0 6em 0;
+}
+
+.flex-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+input[type=text] {
+  background-color: #0b0c10;
+  color: #fafafa;
+  font-size: 1em;
+  border-bottom: solid 0.125em #66fcf1;
+}
+
+input[type=submit] {
+  background-color: #e44839;
+  color: #fafafa;
 }
 
 /*------------------------------------*    #PIECES
