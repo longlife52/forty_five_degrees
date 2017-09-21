@@ -1,0 +1,29 @@
+/* CARDS */
+
+/* 3 column cards */
+.card-three-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.card-three {
+    padding: 20px;
+    background: red;
+    text-align: center;
+    color: $white;
+}
+
+/* two column cards */
+.card-two-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.card-two {
+    padding: 20px;
+    background-color: $dark-teal;
+    text-align: center;
+    color: $white;
+}

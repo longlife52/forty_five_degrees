@@ -1,0 +1,7 @@
+/* CARDS */
+/* 3 column cards */
+.card-three-wrapper { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 10px; }
+
+.card-three { padding: 20px; background: red; text-align: center; color: white; }
+
+/*# sourceMappingURL=_cards.css.map */
