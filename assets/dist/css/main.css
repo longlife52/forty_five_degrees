@@ -556,8 +556,7 @@ input[type=submit] {
 
 	** Just remember, these are set up as extends and not as actual class names **
 \*------------------------------------*/
-/*------------------------------------*    #PAGES
-\*------------------------------------*/
+/* #PAGES */
 .home {
   background: black;
 }
