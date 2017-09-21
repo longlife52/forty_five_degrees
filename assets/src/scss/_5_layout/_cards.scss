@@ -1,18 +1,63 @@
 /* CARDS */
 
 /* 3 column cards */
-.card-three-wrapper {
+.card-three-grid-wrapper {
     display: grid;
+    flex: 1;/*
     grid-template-columns: 1fr 1fr 1fr;
+    */
     grid-gap: 10px;
 }
 
-.card-three {
-    padding: 20px;
-    background: red;
-    text-align: center;
-    color: $white;
+@media (min-width: 600px) {
+    .card-three-grid-wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
+
+.card-three {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: $white;
+    color: $black;
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        padding-left: 10px;
+    }
+}
+
+.card-three__image {
+    text-align: center;
+    width: 100%;
+}
+
+.card-three__read-more {
+    align-self: flex-end;
+    margin-top: auto;
+
+    button {
+        background: $red;
+        width: 100%;
+        border: none;
+        color: $white;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        font-size: 16px;
+
+        &:hover {
+            background: $white;
+            color: $red;
+        }
+    }
+}
+
 
 /* two column cards */
 .card-two-wrapper {
