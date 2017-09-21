@@ -37,3 +37,7 @@ header {
         }
     }
 }
+
+.nav ul li.selected a {
+    color: $bright_teal;
+}
