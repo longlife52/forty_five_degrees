@@ -159,7 +159,9 @@ Wobble To Top Right */
   box-shadow: 0 0 1px transparent;
 }
 
-.hvr-wobble-to-top-right:hover, .hvr-wobble-to-top-right:focus, .hvr-wobble-to-top-right:active {
+.hvr-wobble-to-top-right:hover,
+.hvr-wobble-to-top-right:focus,
+.hvr-wobble-to-top-right:active {
   -webkit-animation-name: hvr-wobble-to-top-right;
   animation-name: hvr-wobble-to-top-right;
   -webkit-animation-duration: 1s;
@@ -587,6 +589,14 @@ input[type=submit] {
 
 .card-three p {
   padding-left: 10px;
+}
+
+.card-three a {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  width: 100%;
+  margin-top: auto;
 }
 
 .card-three__image {

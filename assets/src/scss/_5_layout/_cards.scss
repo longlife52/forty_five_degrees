@@ -29,6 +29,12 @@
     p {
         padding-left: 10px;
     }
+
+    a {
+        align-self: flex-end;
+        width: 100%;
+        margin-top: auto;
+    }
 }
 
 .card-three__image {
@@ -39,7 +45,6 @@
 .card-three__read-more {
     align-self: flex-end;
     margin-top: auto;
-
     button {
         background: $red;
         width: 100%;
