@@ -7,11 +7,18 @@
 \* -----------------------------------  */
 /* #GRID-SETTINGS */
 /*
+this code applied messed up my 3 cards
+ask Amy about it
 .grid {
     display: grid;
     grid-template-columns: auto;
 }
 */
+.container {
+  margin: auto;
+  max-width: 1300px;
+}
+
 /*------------------------------------*    #WORDPRESS-CORE
 \*------------------------------------*/
 .alignnone {
