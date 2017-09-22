@@ -3,9 +3,7 @@
 /* 3 column cards */
 .card-three-grid-wrapper {
     display: grid;
-    flex: 1;/*
-    grid-template-columns: 1fr 1fr 1fr;
-    */
+    flex: 1;
     grid-gap: 10px;
 }
 
@@ -66,14 +64,81 @@
 
 /* two column cards */
 .card-two-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 600px) {
+    .card-two-wrapper {
+        flex-direction: row;
+    }
+
+    .card-two {
+        margin-right: 20px;
+    }
+
+    .card-two:last-child {
+        margin-right: 0;
+    }
+
 }
 
 .card-two {
-    padding: 20px;
-    background-color: $dark-teal;
-    text-align: center;
+    background-color: $white;
+    border: 1px solid $light-grey;
+    flex: 1;
+    margin-bottom: 20px;
+
+    /*
+    margin-right: 20px;
+    */
     color: $white;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+    /*
+    &:last-child {
+        margin-right: 0;
+    }
+    */
+
+    h4 {
+        color: $white;
+        background-color: $dark-teal;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 0;
+        padding: 10px 0 10px 0;
+    }
+
+    p {
+        color: $black;
+        padding: 0 20px 10px 20px;
+    }
+
+    a {
+        align-self: flex-end;
+        margin-top: auto;
+    }
 }
+
+.card-two__learn-more {
+    button {
+        background: $red;
+        border: none;
+        color: $white;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        font-size: 16px;
+
+        &:hover {
+            background: $white;
+            color: $red;
+        }
+    }
+}
+
+/* horizontal card */

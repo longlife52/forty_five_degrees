@@ -563,9 +563,6 @@ input[type=submit] {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  /*
-    grid-template-columns: 1fr 1fr 1fr;
-    */
   grid-gap: 10px;
 }
 
@@ -637,18 +634,100 @@ input[type=submit] {
 
 /* two column cards */
 .card-two-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .card-two-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .card-two {
+    margin-right: 20px;
+  }
+  .card-two:last-child {
+    margin-right: 0;
+  }
 }
 
 .card-two {
-  padding: 20px;
-  background-color: #45a29e;
-  text-align: center;
+  background-color: #fafafa;
+  border: 1px solid #c5c6c7;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-bottom: 20px;
+  /*
+    margin-right: 20px;
+    */
   color: #fafafa;
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  /*
+    &:last-child {
+        margin-right: 0;
+    }
+    */
 }
 
+.card-two h4 {
+  color: #fafafa;
+  background-color: #45a29e;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+  padding: 10px 0 10px 0;
+}
+
+.card-two p {
+  color: #0b0c10;
+  padding: 0 20px 10px 20px;
+}
+
+.card-two a {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.card-two__learn-more button {
+  background: #e44839;
+  border: none;
+  color: #fafafa;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.card-two__learn-more button:hover {
+  background: #fafafa;
+  color: #e44839;
+}
+
+/* horizontal card */
 /*------------------------------------*    #PIECES
 \*------------------------------------*/
 /*------------------------------------*    #GRAVITY-FORMS
