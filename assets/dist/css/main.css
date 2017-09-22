@@ -589,6 +589,7 @@ input[type=submit] {
 
 .card-three h3 {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .card-three p {
