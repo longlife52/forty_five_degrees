@@ -280,7 +280,7 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Archivo Narrow";
+  font-family: "Roboto Condensed";
 }
 
 /*------------------------------------*    #ARROWS
@@ -399,6 +399,7 @@ input[type=submit] {
   -webkit-transition: background-color 0.2s ease-out, color 0.2s ease-out;
   -o-transition: background-color 0.2s ease-out, color 0.2s ease-out;
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  text-transform: uppercase;
 }
 
 .btn_teal:hover,
@@ -480,7 +481,7 @@ input[type=submit] {
 .nav ul li a {
   color: #fafafa;
   text-decoration: none;
-  font-family: "Archivo Narrow";
+  font-family: "Roboto Condensed";
 }
 
 .nav ul li a:hover {
@@ -753,6 +754,50 @@ input[type=submit] {
 }
 
 /* horizontal card */
+.billboard_black {
+  background-color: #0b0c10;
+}
+
+.billboard_black h1 {
+  color: #66fcf1;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3em;
+  margin: 0;
+  padding: 0 0.3125em 1.25em 0.3125em;
+}
+
+.billboard_black h2 {
+  color: #66fcf1;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0;
+  padding: 1.25em 0.3125em 0 0.3125em;
+}
+
+.billboard_black p {
+  color: #fafafa;
+  margin: 0;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 1.25em;
+  padding: 0 0.3125em 0 0.3125em;
+}
+
+@media (min-width: 450px) {
+  .billboard_black h1 {
+    font-size: 4.5em;
+    padding-bottom: 0.625em;
+  }
+  .billboard_black h2 {
+    font-size: 3.5em;
+  }
+  .billboard_black p {
+    font-size: 1.5em;
+  }
+}
+
 /*------------------------------------*    #PIECES
 \*------------------------------------*/
 /*------------------------------------*    #GRAVITY-FORMS

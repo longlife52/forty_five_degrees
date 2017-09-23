@@ -1,0 +1,47 @@
+.billboard_black {
+    background-color: $black;
+
+
+    h1 {
+        color: $bright-teal;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3em;
+        margin: 0;
+        padding: 0 em(5px) em(20px) em(5px);
+    }
+
+    h2 {
+        color: $bright-teal;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2.5em;
+        margin: 0;
+        padding: em(20px) em(5px) 0 em(5px);
+    }
+
+    p {
+        color: $white;
+        margin: 0;
+        line-height: 1.5em;
+        text-align: center;
+        font-size: 1.25em;
+        padding: 0 em(5px) 0 em(5px);
+
+    }
+
+    @media (min-width: 450px) {
+        h1 {
+            font-size: 4.5em;
+            padding-bottom: em(10px);
+        }
+
+        h2 {
+            font-size: 3.5em;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+    }
+}
