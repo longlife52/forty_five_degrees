@@ -881,6 +881,13 @@ input[type=submit] {
   background: black;
 }
 
+.blog_preview h3 {
+  color: #0b0c10;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3em;
+}
+
 .blog_content p:first-child {
   font-size: 1.5em;
   padding: 0.625em 1.25em 0.625em 1.25em;

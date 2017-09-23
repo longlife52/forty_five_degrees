@@ -1,3 +1,12 @@
 .home {
     background: black;
 }
+
+.blog_preview {
+    h3 {
+        color: $black;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3em;
+    }
+}
