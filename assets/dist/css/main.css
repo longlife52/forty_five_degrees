@@ -789,7 +789,9 @@ input[type=submit] {
   .billboard_black h1 {
     font-size: 4.5em;
     padding-bottom: 0.625em;
-    margin-top: -0.3125em;
+    /*
+            margin-top: em(-5px);
+            */
   }
   .billboard_black h2 {
     font-size: 3.5em;
@@ -812,8 +814,16 @@ input[type=submit] {
   padding-bottom: 3.125em;
 }
 
-.title_space {
-  margin-top: 1.5625em;
+.blog_title h1 {
+  font-size: 3.125em;
+  padding-bottom: 0;
+}
+
+.blog_title h2 {
+  font-size: 2em;
+  text-transform: lowercase;
+  padding-top: 0;
+  padding-bottom: 3.125em;
 }
 
 /*------------------------------------*    #PIECES

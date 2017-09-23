@@ -32,8 +32,9 @@
     @media (min-width: 450px) {
         h1 {
             font-size: 4.5em;
-            padding-bottom: em(10px);
+            padding-bottom: em(10px);/*
             margin-top: em(-5px);
+            */
         }
 
         h2 {
@@ -60,6 +61,17 @@
     padding-bottom: em(50px);
 }
 
-.title_space {
-    margin-top: em(25px);
+.blog_title {
+
+    h1 {
+        font-size: em(50px);
+        padding-bottom: 0;
+    }
+
+    h2 {
+        font-size: em(32px);
+        text-transform: lowercase;
+        padding-top: 0;
+        padding-bottom: em(50px);
+    }
 }
