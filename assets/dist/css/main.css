@@ -648,6 +648,11 @@ input[type=submit] {
   width: 100%;
 }
 
+.card-three__image img {
+  width: 100%;
+  height: auto;
+}
+
 .card-three__read-more {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
