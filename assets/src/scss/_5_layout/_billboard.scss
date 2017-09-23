@@ -34,6 +34,7 @@
         h1 {
             font-size: 4.5em;
             padding-bottom: em(10px);
+            margin-top: em(-5px);
         }
 
         h2 {
@@ -42,6 +43,16 @@
 
         p {
             font-size: 1.5em;
+        }
+    }
+
+    @media (min-width: 650px) {
+        h1 {
+            font-size: 5em;
+        }
+
+        h2 {
+            font-size: 4em;
         }
     }
 }
