@@ -602,7 +602,7 @@ input[type=submit] {
   -ms-flex: 1;
   flex: 1;
   grid-gap: 0.625em;
-  padding: 125px 0 50px 0;
+  padding: 0 0 3.125em 0;
 }
 
 @media (min-width: 750px) {
@@ -877,15 +877,20 @@ input[type=submit] {
 	** Just remember, these are set up as extends and not as actual class names **
 \*------------------------------------*/
 /* #PAGES */
+/*
 .home {
-  background: black;
+    background: black;
 }
-
-.blog_preview h3 {
+*/
+.blog_preview h2 {
   color: #0b0c10;
   text-transform: uppercase;
   text-align: center;
   font-size: 3em;
+}
+
+.trainings_pad {
+  padding-top: 4.375em;
 }
 
 .blog_content p:first-child {
