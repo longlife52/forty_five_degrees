@@ -1,9 +1,27 @@
+/* BILLBOARD WITH BLACK BACKGROUND */
 .billboard_black {
     background-color: $black;
+    h1,
+    h2 {
+        color: $bright_teal;
+    }
+    p {
+        color: $white;
+    }
+}
+
+.billboard_white {
+    background-color: $white;
+    h1,
+    h2,
+    p {
+        color: $black;
+    }
+}
 
 
+.billboard {
     h1 {
-        color: $bright-teal;
         text-transform: uppercase;
         text-align: center;
         font-size: 3em;
@@ -12,7 +30,6 @@
     }
 
     h2 {
-        color: $bright-teal;
         text-transform: uppercase;
         text-align: center;
         font-size: 2.5em;
@@ -21,7 +38,6 @@
     }
 
     p {
-        color: $white;
         margin: 0;
         line-height: 1.5em;
         text-align: center;
@@ -75,3 +91,5 @@
         padding-bottom: em(50px);
     }
 }
+
+/* BILLBOARD WITH WHITE BACKGROUND */

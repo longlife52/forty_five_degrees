@@ -754,12 +754,31 @@ input[type=submit] {
 }
 
 /* horizontal card */
+/* BILLBOARD WITH BLACK BACKGROUND */
 .billboard_black {
   background-color: #0b0c10;
 }
 
-.billboard_black h1 {
+.billboard_black h1,
+.billboard_black h2 {
   color: #66fcf1;
+}
+
+.billboard_black p {
+  color: #fafafa;
+}
+
+.billboard_white {
+  background-color: #fafafa;
+}
+
+.billboard_white h1,
+.billboard_white h2,
+.billboard_white p {
+  color: #0b0c10;
+}
+
+.billboard h1 {
   text-transform: uppercase;
   text-align: center;
   font-size: 3em;
@@ -767,8 +786,7 @@ input[type=submit] {
   padding: 0 0.3125em 1.25em 0.3125em;
 }
 
-.billboard_black h2 {
-  color: #66fcf1;
+.billboard h2 {
   text-transform: uppercase;
   text-align: center;
   font-size: 2.5em;
@@ -776,8 +794,7 @@ input[type=submit] {
   padding: 1.25em 0.3125em 0 0.3125em;
 }
 
-.billboard_black p {
-  color: #fafafa;
+.billboard p {
   margin: 0;
   line-height: 1.5em;
   text-align: center;
@@ -786,26 +803,26 @@ input[type=submit] {
 }
 
 @media (min-width: 450px) {
-  .billboard_black h1 {
+  .billboard h1 {
     font-size: 4.5em;
     padding-bottom: 0.625em;
     /*
             margin-top: em(-5px);
             */
   }
-  .billboard_black h2 {
+  .billboard h2 {
     font-size: 3.5em;
   }
-  .billboard_black p {
+  .billboard p {
     font-size: 1.5em;
   }
 }
 
 @media (min-width: 650px) {
-  .billboard_black h1 {
+  .billboard h1 {
     font-size: 5em;
   }
-  .billboard_black h2 {
+  .billboard h2 {
     font-size: 4em;
   }
 }
@@ -826,6 +843,7 @@ input[type=submit] {
   padding-bottom: 3.125em;
 }
 
+/* BILLBOARD WITH WHITE BACKGROUND */
 /*------------------------------------*    #PIECES
 \*------------------------------------*/
 /*------------------------------------*    #GRAVITY-FORMS
