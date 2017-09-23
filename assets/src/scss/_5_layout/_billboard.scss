@@ -27,7 +27,6 @@
         text-align: center;
         font-size: 1.25em;
         padding: 0 em(5px) 0 em(5px);
-
     }
 
     @media (min-width: 450px) {
@@ -55,4 +54,8 @@
             font-size: 4em;
         }
     }
+}
+
+.p_space {
+    padding-bottom: em(50px);
 }
