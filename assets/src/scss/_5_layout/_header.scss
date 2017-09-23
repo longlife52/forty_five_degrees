@@ -11,6 +11,8 @@ header {
 /*  #NAV */
 .nav {
     background: $black;
+    position: sticky;
+    top: 0;
 
     ul {
         display: flex;
