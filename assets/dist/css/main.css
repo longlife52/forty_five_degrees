@@ -287,18 +287,19 @@ p {
 \*------------------------------------*/
 /* Angled Bracket 
 Reference: http://stackoverflow.com/questions/27492191/how-to-make-a-fancy-arrow-using-css */
-/*------------------------------------*    #ZINDEX
+/*
+    #ZINDEX
 
     Controls all vertical stacking in one place
     Reference: http://css-tricks.com/handling-z-index/
 
-    
+
     Can now use elsewhere in code with:
 
     	.header {
 			z-index: map-get($zindex, header);
 		}
-\*------------------------------------*/
+*/
 /*------------------------------------*    #VENDORS
 \*------------------------------------*/
 /*------------------------------------*    #REDEFINE
@@ -442,6 +443,7 @@ input[type=submit] {
 
 /*  #NAV */
 .nav {
+  z-index: 9001;
   background: #0b0c10;
   position: -webkit-sticky;
   position: sticky;

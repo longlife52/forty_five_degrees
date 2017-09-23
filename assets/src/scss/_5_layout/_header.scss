@@ -10,6 +10,7 @@ header {
 
 /*  #NAV */
 .nav {
+    z-index: map-get($zindex, nav);
     background: $black;
     position: sticky;
     top: 0;
