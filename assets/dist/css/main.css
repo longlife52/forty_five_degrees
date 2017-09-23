@@ -98,11 +98,32 @@ a img.aligncenter {
   padding: 0 4px 5px;
 }
 
-/*------------------------------------*    #HELPERS
-\*------------------------------------*/
+/* #HELPERS */
 /* #ANIMATIONS */
 /* Hover Effect from  http://ianlunn.github.io/Hover/
 Wobble To Top Right */
+/*
+@-webkit-keyframes hvr-wobble-to-top-right {
+    16.65% {
+        transform: translate(8px, -8px);
+    }
+    33.3% {
+        transform: translate(-6px, 6px);
+    }
+    49.95% {
+        transform: translate(4px, -4px);
+    }
+    66.6% {
+        transform: translate(-2px, 2px);
+    }
+    83.25% {
+        transform: translate(1px, -1px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+*/
 @-webkit-keyframes hvr-wobble-to-top-right {
   16.65% {
     -webkit-transform: translate(8px, -8px);
@@ -129,7 +150,6 @@ Wobble To Top Right */
     transform: translate(0, 0);
   }
 }
-
 @keyframes hvr-wobble-to-top-right {
   16.65% {
     -webkit-transform: translate(8px, -8px);
@@ -231,8 +251,7 @@ Wobble To Top Right */
 		@include aspect-ratio(16, 9);
 	}
 */
-/*------------------------------------*    #FUNCTIONS
-\*------------------------------------*/
+/* #FUNCTIONS */
 /*
 	px to em
 	https://css-tricks.com/snippets/sass/px-to-em-functions/
@@ -566,7 +585,7 @@ input[type=submit] {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  grid-gap: 10px;
+  grid-gap: 0.625em;
 }
 
 @media (min-width: 600px) {
@@ -585,7 +604,7 @@ input[type=submit] {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 20px;
+  padding: 1.25em;
   background: #fafafa;
   color: #0b0c10;
 }
@@ -596,7 +615,7 @@ input[type=submit] {
 }
 
 .card-three p {
-  padding-left: 10px;
+  padding-left: 0.625em;
 }
 
 .card-three a {
@@ -627,8 +646,8 @@ input[type=submit] {
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 10px;
-  font-size: 16px;
+  padding: 0.625em;
+  font-size: 1em;
 }
 
 .card-three__read-more button:hover {
@@ -658,7 +677,7 @@ input[type=submit] {
     flex-direction: row;
   }
   .card-two {
-    margin-right: 20px;
+    margin-right: 1.25em;
   }
   .card-two:last-child {
     margin-right: 0;
@@ -667,17 +686,17 @@ input[type=submit] {
 
 .card-two {
   background-color: #fafafa;
-  border: 1px solid #c5c6c7;
+  border: 0.0625em solid #c5c6c7;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
   /*
     margin-right: 20px;
     */
   color: #fafafa;
-  padding-bottom: 20px;
+  padding-bottom: 1.25em;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -700,12 +719,12 @@ input[type=submit] {
   text-transform: uppercase;
   text-align: center;
   margin-top: 0;
-  padding: 10px 0 10px 0;
+  padding: 0.625em 0 0.625em 0;
 }
 
 .card-two p {
   color: #0b0c10;
-  padding: 0 20px 10px 20px;
+  padding: 0 1.25em 0.625em 1.25em;
 }
 
 .card-two a {
@@ -722,8 +741,8 @@ input[type=submit] {
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 10px;
-  font-size: 16px;
+  padding: 0.625em;
+  font-size: 1em;
 }
 
 .card-two__learn-more button:hover {

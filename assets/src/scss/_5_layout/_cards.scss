@@ -4,7 +4,7 @@
 .card-three-grid-wrapper {
     display: grid;
     flex: 1;
-    grid-gap: 10px;
+    grid-gap: em(10px);
 }
 
 @media (min-width: 600px) {
@@ -16,7 +16,7 @@
 .card-three {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: em(20px);
     background: $white;
     color: $black;
 
@@ -26,7 +26,7 @@
     }
 
     p {
-        padding-left: 10px;
+        padding-left: em(10px);
     }
 
     a {
@@ -52,8 +52,8 @@
         text-align: center;
         font-weight: bold;
         text-transform: uppercase;
-        padding: 10px;
-        font-size: 16px;
+        padding: em(10px);
+        font-size: em(16px);
 
         &:hover {
             background: $white;
@@ -75,7 +75,7 @@
     }
 
     .card-two {
-        margin-right: 20px;
+        margin-right: em(20px);
     }
 
     .card-two:last-child {
@@ -86,15 +86,15 @@
 
 .card-two {
     background-color: $white;
-    border: 1px solid $light-grey;
+    border: em(1px) solid $light-grey;
     flex: 1;
-    margin-bottom: 20px;
+    margin-bottom: em(20px);
 
     /*
     margin-right: 20px;
     */
     color: $white;
-    padding-bottom: 20px;
+    padding-bottom: em(20px);
     display: flex;
     flex-direction: column;
 
@@ -110,12 +110,12 @@
         text-transform: uppercase;
         text-align: center;
         margin-top: 0;
-        padding: 10px 0 10px 0;
+        padding: em(10px) 0 em(10px) 0;
     }
 
     p {
         color: $black;
-        padding: 0 20px 10px 20px;
+        padding: 0 em(20px) em(10px) em(20px);
     }
 
     a {
@@ -132,8 +132,8 @@
         text-align: center;
         font-weight: bold;
         text-transform: uppercase;
-        padding: 10px;
-        font-size: 16px;
+        padding: em(10px);
+        font-size: em(16px);
 
         &:hover {
             background: $white;

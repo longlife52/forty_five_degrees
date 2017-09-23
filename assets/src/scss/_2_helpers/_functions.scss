@@ -1,19 +1,17 @@
-/*------------------------------------*\
-    #FUNCTIONS
-\*------------------------------------*/
+/* #FUNCTIONS */
 
 @function path($src, $dir: img) {
-	$src: unquote($src);
-	@return url(unquote("..")/$dir/$src);
+    $src: unquote($src);
+    @return url(unquote("..")/$dir/$src);
 }
 
 @function font($src) {
-	$src: unquote($src);
-	@return url($font-path/$src);
+    $src: unquote($src);
+    @return url($font-path/$src);
 }
 
 @function grayscale($value) {
-  @return #{ "grayscale(" + $value + ")" };
+    @return #{ "grayscale(" + $value + ")" };
 }
 
 
@@ -24,13 +22,13 @@
 $browser-context: 16;
 
 @function em($pixels, $context: $browser-context) {
-  @if (unitless($pixels)) {
-    $pixels: $pixels * 1px;
-  }
+    @if (unitless($pixels)) {
+        $pixels: $pixels * 1px;
+    }
 
-  @if (unitless($context)) {
-    $context: $context * 1px;
-  }
+    @if (unitless($context)) {
+        $context: $context * 1px;
+    }
 
-  @return $pixels / $context * 1em;
+    @return $pixels / $context * 1em;
 }
