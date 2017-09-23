@@ -376,12 +376,12 @@ input[type=submit] {
 }
 
 /* #LINKS */
-a {
-  color: #0b0c10;
+.link_white a {
+  color: #fafafa;
 }
 
-a:hover {
-  color: #66fcf1;
+.link_white a:hover {
+  color: #e44839;
 }
 
 /*------------------------------------*    #TYPOGRAPHY
@@ -896,6 +896,20 @@ input[type=submit] {
 
 .blog_copy p:last-child {
   padding-bottom: 6.25em;
+}
+
+.link_area {
+  background-color: #45a29e;
+}
+
+.link_area h3 {
+  color: #fafafa;
+  text-transform: uppercase;
+  padding: 1.875em 3.75em 0 3.75em;
+}
+
+.link_area p:last-child {
+  padding: 0 3.75em 1.25em 4.375em;
 }
 
 /*# sourceMappingURL=main.css.map */

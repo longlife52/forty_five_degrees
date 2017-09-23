@@ -1,9 +1,10 @@
 /* #LINKS */
+.link_white {
+    a {
+        color: $white;
 
-a {
-    color: $black;
-
-	&:hover {
-        color: $bright_teal;
-	}
+        &:hover {
+            color: $red;
+        }
+    }
 }

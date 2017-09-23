@@ -25,3 +25,17 @@
         padding-bottom: em(100px);
     }
 }
+
+.link_area {
+    background-color: $dark-teal;
+
+    h3 {
+        color: $white;
+        text-transform: uppercase;
+        padding: em(30px) em(60px) 0 em(60px);
+    }
+
+    p:last-child {
+        padding: 0 em(60px) em(20px) em(70px);
+    }
+}
