@@ -1,8 +1,61 @@
-/*
+/* index.html STYLES
 .home {
     background: black;
 }
 */
+
+.hero {
+    background: url(../img/cape.jpg) $dark-teal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero_box {
+    padding-top: em(500px);
+}
+
+.hero_call_to_action {
+    background: $dark-grey;
+
+    h2 {
+        color: $white;
+        text-transform: uppercase;/*
+        @include no-margin-padding;
+        */
+        padding-left: 20px;
+        font-size: 3em;
+        margin: 0;
+    }
+}
+
+.services-style {
+    background-color: $light-grey;
+    padding: em(75px) em(50px) em(75px) em(50px);
+
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    @media (min-width: 550px) {
+        h2 {
+            font-size: 2em;
+        }
+    }
+
+    @media (min-width: 750px) {
+        h2 {
+            font-size: 3em;
+        }
+    }
+}
+
+.services-pad {
+    padding-top: em(40px);
+}
 
 .blog_preview {
     h2 {

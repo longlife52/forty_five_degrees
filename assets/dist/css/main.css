@@ -877,16 +877,35 @@ input[type=submit] {
 	** Just remember, these are set up as extends and not as actual class names **
 \*------------------------------------*/
 /* #PAGES */
-/*
+/* index.html STYLES
 .home {
     background: black;
 }
 */
-.blog_preview h2 {
-  color: #0b0c10;
+.hero {
+  background: url(../img/cape.jpg) #45a29e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero_box {
+  padding-top: 31.25em;
+}
+
+.hero_call_to_action {
+  background: #1f2833;
+}
+
+.hero_call_to_action h2 {
+  color: #fafafa;
   text-transform: uppercase;
-  text-align: center;
+  /*
+        @include no-margin-padding;
+        */
+  padding-left: 20px;
   font-size: 3em;
+  margin: 0;
 }
 
 .services-style {
@@ -914,9 +933,17 @@ input[type=submit] {
 }
 
 .services-pad {
-  padding-top: 40px;
+  padding-top: 2.5em;
 }
 
+.blog_preview h2 {
+  color: #0b0c10;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3em;
+}
+
+/* TRAININGS PAGE STYLES */
 .trainings_pad {
   padding-top: 4.375em;
 }
