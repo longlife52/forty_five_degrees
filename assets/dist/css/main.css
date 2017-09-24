@@ -864,6 +864,47 @@ input[type=submit] {
   padding-bottom: 3.125em;
 }
 
+/* FLEX STYLES */
+.flex_wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex_content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.content_img {
+  content-fit: cover;
+}
+
+.content_img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content_text_coaching {
+  background-color: #0b0c10;
+}
+
+.content_text_coaching h2 {
+  color: #fafafa;
+}
+
+.content_text_coaching p {
+  color: #fafafa;
+}
+
+.content_text_coaching ul li {
+  color: #fafafa;
+  font-family: "Roboto Condensed";
+}
+
 /*------------------------------------*    #PIECES
 \*------------------------------------*/
 /*------------------------------------*    #GRAVITY-FORMS
