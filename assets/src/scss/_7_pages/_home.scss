@@ -4,6 +4,13 @@
 }
 */
 
+.image_full {
+    width: 100%;
+    height: auto;
+}
+
+/*
+
 .hero {
     background: url(../img/cape.jpg) $dark-teal;
     background-repeat: no-repeat;
@@ -14,18 +21,35 @@
 .hero_box {
     padding-top: em(500px);
 }
+*/
 
 .hero_call_to_action {
-    background: $dark-grey;
+    background: $black;
+    display: flex;
+    align-items: center;
+    margin-top: em(-5px);
+    flex-direction: column;
 
     h2 {
         color: $white;
-        text-transform: uppercase;/*
-        @include no-margin-padding;
-        */
-        padding-left: 20px;
-        font-size: 3em;
-        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+        padding: em(10px) em(20px) 0 em(20px);
+        font-size: 2em;
+    }
+
+    @media (min-width: 600px) {
+        flex-direction: row;
+
+        h2 {
+            padding: em(20px) em(20px) em(20px) em(20px);
+        }
+    }
+
+
+
+    p {
+        color: $white;
     }
 }
 

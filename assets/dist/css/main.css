@@ -629,6 +629,7 @@ input[type=submit] {
 .card-three h3 {
   text-align: center;
   text-transform: uppercase;
+  font-size: 1.5em;
 }
 
 .card-three p {
@@ -742,6 +743,7 @@ input[type=submit] {
   text-align: center;
   margin-top: 0;
   padding: 0.625em 0 0.625em 0;
+  font-size: 2em;
 }
 
 .card-two p {
@@ -882,30 +884,65 @@ input[type=submit] {
     background: black;
 }
 */
+.image_full {
+  width: 100%;
+  height: auto;
+}
+
+/*
+
 .hero {
-  background: url(../img/cape.jpg) #45a29e;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+    background: url(../img/cape.jpg) $dark-teal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .hero_box {
-  padding-top: 31.25em;
+    padding-top: em(500px);
 }
-
+*/
 .hero_call_to_action {
-  background: #1f2833;
+  background: #0b0c10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: -0.3125em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .hero_call_to_action h2 {
   color: #fafafa;
   text-transform: uppercase;
-  /*
-        @include no-margin-padding;
-        */
-  padding-left: 20px;
-  font-size: 3em;
-  margin: 0;
+  text-align: center;
+  padding: 0.625em 1.25em 0 1.25em;
+  font-size: 2em;
+}
+
+@media (min-width: 600px) {
+  .hero_call_to_action {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .hero_call_to_action h2 {
+    padding: 1.25em 1.25em 1.25em 1.25em;
+  }
+}
+
+.hero_call_to_action p {
+  color: #fafafa;
 }
 
 .services-style {
