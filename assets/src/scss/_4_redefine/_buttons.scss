@@ -8,7 +8,83 @@
     padding: 3em 0 3em 0;
 }
 
+.ghost_button {
+    display: inline-block;
+    width: 10em;
+    font-weight: bold;
+    padding: 0.5em;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    text-transform: uppercase;
+}
+
 /* teal and white */
+.ghost_btn_teal {
+    border: 0.1875em solid $bright_teal;
+
+    &:hover,
+    &:active {
+        background-color: $bright-teal;
+        color: $black;
+        transition: background-color 0.3s ease-in, color 0.3s ease-in;
+    }
+}
+
+/*
+.ghost_btn_teal:hover,
+.ghost_btn_teal:active {
+    background-color: $bright-teal;
+    color: $black;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+*/
+
+/* white and  white button */
+.ghost_btn_white {
+    border: 0.1875em solid $white;
+    &:hover,
+    &:active {
+        background-color: $white;
+        color: $black;
+        transition: background-color 0.3s ease-in, color 0.3s ease-in;
+    }
+}
+
+/*
+.ghost_btn_white:hover,
+.ghost_btn_white:active {
+    background-color: $white;
+    color: $black;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+*/
+
+/* white button
+.ghost-button-two {
+    display: inline-block;
+    width: 12.5em;
+    font-weight: bold;
+    padding: 0.5em;
+    color: #f5f3fd;
+    border: 0.1875em solid #f5f3fd;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.ghost-button-two:hover,
+.ghost-button-two:active {
+    background-color: #f5f3fd;
+    color: #6e3667;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+*/
+
+
+/* teal and white
 .btn_teal {
     display: inline-block;
     width: 10em;
@@ -30,23 +106,25 @@
     transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
 
-/* white button */
-.ghost-button-two {
+ white and  white button
+.btn_white {
     display: inline-block;
-    width: 12.5em;
+    width: 10em;
     font-weight: bold;
     padding: 0.5em;
-    color: #f5f3fd;
-    border: 0.1875em solid #f5f3fd;
+    color: #6e3667;
+    border: 0.1875em solid $white;
     text-align: center;
     outline: none;
     text-decoration: none;
     transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    text-transform: uppercase;
 }
 
-.ghost-button-two:hover,
-.ghost-button-two:active {
-    background-color: #f5f3fd;
-    color: #6e3667;
+.btn_white:hover,
+.btn_white:active {
+    background-color: $white;
+    color: $black;
     transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
+*/
