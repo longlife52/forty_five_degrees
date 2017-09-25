@@ -19,6 +19,14 @@
     }
 }
 
+.billboard_teal {
+    background-color: $dark-teal;
+    h2,
+    p {
+        color: $white;
+    }
+}
+
 
 .billboard {
     h1 {

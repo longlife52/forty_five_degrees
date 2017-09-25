@@ -799,6 +799,15 @@ input[type=submit] {
   color: #0b0c10;
 }
 
+.billboard_teal {
+  background-color: #45a29e;
+}
+
+.billboard_teal h2,
+.billboard_teal p {
+  color: #fafafa;
+}
+
 .billboard h1 {
   text-transform: uppercase;
   text-align: center;
