@@ -17,6 +17,9 @@
 }
 
 .content_text_coaching {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: $black;
 
     h2 {
