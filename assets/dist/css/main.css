@@ -433,9 +433,10 @@ input[type=submit] {
     transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
 */
-/* white and  white button */
+/* white and white button */
 .ghost_btn_white {
   border: 0.1875em solid #fafafa;
+  color: #fafafa;
 }
 
 .ghost_btn_white:hover, .ghost_btn_white:active {
@@ -1175,6 +1176,28 @@ input[type=submit] {
 
 .link_area p:last-child {
   padding: 0 3.75em 1.25em 4.375em;
+}
+
+/* WORKSHOPS */
+.btn_pullup {
+  display: none;
+}
+
+@media (min-width: 650px) {
+  .btn_pullup {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    top: 260px;
+    left: 70px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .btn_pullup {
+    top: 400px;
+    left: 200px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

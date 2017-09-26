@@ -41,9 +41,10 @@
 }
 */
 
-/* white and  white button */
+/* white and white button */
 .ghost_btn_white {
     border: 0.1875em solid $white;
+    color: $white;
     &:hover,
     &:active {
         background-color: $white;

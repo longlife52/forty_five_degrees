@@ -1,0 +1,17 @@
+/* WORKSHOPS */
+.btn_pullup {
+    display: none;
+
+    @media (min-width: 650px) {
+        display: block;
+        position: absolute;
+        z-index: 100;
+        top: 260px;
+        left: 70px;
+    }
+
+    @media (min-width: 1000px) {
+        top: 400px;
+        left: 200px;
+    }
+}
