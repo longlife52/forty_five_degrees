@@ -1,0 +1,36 @@
+/* ABOUT */
+.team_image {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    h2,
+    h3 {
+        margin: 0 auto;
+        padding-left: 20px;
+    }
+}
+
+.team_bio p {
+    padding-left: 20px;
+}
+
+
+@media (min-width: 750px) {
+    .team_card {
+        display: grid;
+        grid-template-columns: 300px auto;
+        grid-gap: em(10px);
+        padding: 0 0 em(50px) 0;
+    }
+}
+
+@media  (min-width: 1050px) {
+    .team_card {
+        grid-template-columns: 600px auto;
+    }
+
+    .team_bio p {
+        font-size: 1.25em;
+    }
+}

@@ -10,6 +10,7 @@
 
 .flex_content {
     flex: 1;
+    margin-bottom: em(-10px);
 }
 
 .content_img {
@@ -37,5 +38,4 @@
         color: $white;
         font-family: $roboto;
     }
-
 }
