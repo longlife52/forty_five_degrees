@@ -1246,6 +1246,10 @@ input[type=submit] {
 }
 
 /* ABOUT */
+.team_image {
+  /*  adds red line! */
+}
+
 .team_image img {
   width: 100%;
   height: 100%;
@@ -1255,6 +1259,16 @@ input[type=submit] {
 .team_image h3 {
   margin: 0 auto;
   padding-left: 20px;
+}
+
+.team_image h3::after {
+  background: none repeat scroll 0 0 #e44839;
+  bottom: -0.5em;
+  content: "";
+  display: block;
+  height: 0.125em;
+  position: relative;
+  width: 2.25em;
 }
 
 .team_bio p {
@@ -1284,91 +1298,100 @@ input[type=submit] {
   padding-top: 4.375em;
 }
 
-/* BLOG */
-.blog_title h1 {
-  font-size: 3.125em;
-  padding-bottom: 0;
+/* BLOG
+.blog_title {
+
+    h1 {
+        font-size: em(50px);
+        padding-bottom: 0;
+    }
+
+    h2 {
+        font-size: em(32px);
+        text-transform: lowercase;
+        padding-top: 0;
+        padding-bottom: em(50px);
+    }
 }
 
-.blog_title h2 {
-  font-size: 2em;
-  text-transform: lowercase;
-  padding-top: 0;
-  padding-bottom: 3.125em;
-}
 
-/* ::after on h2 creates the line from answers.squarespace.com */
 .blog_title h2::after {
-  background: none repeat scroll 0 0 #e44839;
-  bottom: -0.5em;
-  content: "";
-  display: block;
-  height: 0.125em;
-  position: relative;
-  width: 2.25em;
-  margin: auto;
+    background: none repeat scroll 0 0 $red;
+    bottom: -0.5em;
+    content: "";
+    display: block;
+    height: 0.125em;
+    position: relative;
+    width: 2.25em;
+    margin: auto;
 }
 
-.blog_content p:first-child {
-  font-size: 1.5em;
-  padding: 0.625em 1.25em 0.625em 1.25em;
-}
+.blog_content {
+    p:first-child {
+        font-size: em(24px);
+        padding: em(10px) em(20px) em(10px) em(20px);
+    }
 
-.blog_content p {
-  padding: 0 1.25em 0 1.25em;
-}
+    p {
+        padding: 0 em(20px) 0 em(20px);
+    }
 
-.blog_content h3 {
-  margin-bottom: 0;
-  padding: 0 1.25em 0 1.25em;
-}
+    h3 {
+        margin-bottom: 0;
+        padding: 0 em(20px) 0 em(20px);
+    }
 
-@media (min-width: 550px) {
-  .blog_content p:first-child {
-    font-size: 1.875em;
-    padding: 0.625em 3.75em 0.625em 3.75em;
-  }
-  .blog_content p {
-    padding: 0 3.75em 0 3.75em;
-  }
-  .blog_content h3 {
-    margin-bottom: 0;
-    padding: 0 3.75em 0 3.125em;
-  }
+    @media (min-width: 550px) {
+        p:first-child {
+            font-size: em(30px);
+            padding: em(10px) em(60px) em(10px) em(60px);
+        }
+
+        p {
+            padding: 0 em(60px) 0 em(60px);
+        }
+
+        h3 {
+            margin-bottom: 0;
+            padding: 0 em(60px) 0 em(50px);
+        }
+    }
 }
 
 .blog_image img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 @media (min-width: 550px) {
-  .blog_image {
-    float: right;
-    width: 50%;
-    padding-top: 3.125em;
-    margin-left: 10px;
-  }
+    .blog_image {
+        float: right;
+        width: 50%;
+        padding-top: em(50px);
+        margin-left: 10px;
+    }
 }
 
-.blog_copy p:last-child {
-  padding-bottom: 6.25em;
+.blog_copy {
+    p:last-child {
+        padding-bottom: em(100px);
+    }
 }
 
 .link_area {
-  background-color: #45a29e;
-}
+    background-color: $dark-teal;
 
-.link_area h3 {
-  color: #fafafa;
-  text-transform: uppercase;
-  padding: 1.875em 3.75em 0 3.75em;
-}
+    h3 {
+        color: $white;
+        text-transform: uppercase;
+        padding: em(30px) em(60px) 0 em(60px);
+    }
 
-.link_area p:last-child {
-  padding: 0 3.75em 1.25em 4.375em;
+    p:last-child {
+        padding: 0 em(60px) em(20px) em(70px);
+    }
 }
-
+*/
 .contact_call p {
   padding-bottom: 2em;
 }
@@ -1502,6 +1525,91 @@ input[type=submit] {
 
 .workshop_button {
   margin-top: 3.125em;
+}
+
+/* INDIVIDUAL BLOG POST */
+.blog_title h1 {
+  font-size: 3.125em;
+  padding-bottom: 0;
+}
+
+.blog_title h2 {
+  font-size: 2em;
+  text-transform: lowercase;
+  padding-top: 0;
+  padding-bottom: 3.125em;
+}
+
+/* ::after on h2 creates the line from answers.squarespace.com */
+.blog_title h2::after {
+  background: none repeat scroll 0 0 #e44839;
+  bottom: -0.5em;
+  content: "";
+  display: block;
+  height: 0.125em;
+  position: relative;
+  width: 2.25em;
+  margin: auto;
+}
+
+.blog_content p:first-child {
+  font-size: 1.5em;
+  padding: 0.625em 1.25em 0.625em 1.25em;
+}
+
+.blog_content p {
+  padding: 0 1.25em 0 1.25em;
+}
+
+.blog_content h3 {
+  margin-bottom: 0;
+  padding: 0 1.25em 0 1.25em;
+}
+
+@media (min-width: 550px) {
+  .blog_content p:first-child {
+    font-size: 1.875em;
+    padding: 0.625em 3.75em 0.625em 3.75em;
+  }
+  .blog_content p {
+    padding: 0 3.75em 0 3.75em;
+  }
+  .blog_content h3 {
+    margin-bottom: 0;
+    padding: 0 3.75em 0 3.125em;
+  }
+}
+
+.blog_image img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 550px) {
+  .blog_image {
+    float: right;
+    width: 50%;
+    padding-top: 3.125em;
+    margin-left: 10px;
+  }
+}
+
+.blog_copy p:last-child {
+  padding-bottom: 6.25em;
+}
+
+.link_area {
+  background-color: #45a29e;
+}
+
+.link_area h3 {
+  color: #fafafa;
+  text-transform: uppercase;
+  padding: 1.875em 3.75em 0 3.75em;
+}
+
+.link_area p:last-child {
+  padding: 0 3.75em 1.25em 4.375em;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -9,12 +9,23 @@
         margin: 0 auto;
         padding-left: 20px;
     }
+
+    /*  adds red line! */
+
+    h3::after {
+        background: none repeat scroll 0 0 $red;
+        bottom: -0.5em;
+        content: "";
+        display: block;
+        height: 0.125em;
+        position: relative;
+        width: 2.25em;
+    }
 }
 
 .team_bio p {
     padding-left: 20px;
 }
-
 
 @media (min-width: 750px) {
     .team_card {
@@ -30,7 +41,9 @@
         grid-template-columns: 600px auto;
     }
 
-    .team_bio p {
-        font-size: 1.25em;
+    .team_bio {
+        p {
+            font-size: 1.25em;
+        }
     }
 }
