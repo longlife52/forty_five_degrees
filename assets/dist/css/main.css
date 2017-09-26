@@ -1243,6 +1243,7 @@ input[type=submit] {
 }
 
 .workshop {
+  padding: 5em 0 5em 0;
   /* ::after on h3 creates the line from answers.squarespace.com */
 }
 
@@ -1311,12 +1312,31 @@ input[type=submit] {
 }
 
 .workshop_details {
-  padding-left: 20px;
+  padding-left: 1.25em;
 }
 
 .bold {
   color: #45a29e;
   font-weight: bold;
+}
+
+.center_center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.workshop_button {
+  margin-top: 3.125em;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -17,6 +17,8 @@
 }
 
 .workshop {
+    padding: em(80px) 0 em(80px) 0;
+
     h2 {
         margin-bottom: 0;
     }
@@ -70,10 +72,20 @@
 }
 
 .workshop_details {
-    padding-left: 20px;
+    padding-left: em(20px);
 }
 
 .bold {
     color: $dark-teal;
     font-weight: bold;
+}
+
+.center_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workshop_button {
+    margin-top: em(50px);
 }
