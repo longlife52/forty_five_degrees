@@ -32,6 +32,23 @@
     }
 }
 
+/* red button */
+.btn_red {
+    background: $red;
+    border: none;
+    color: $white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: em(10px);
+    font-size: em(16px);
+
+    &:hover {
+        background: $white;
+        color: $red;
+    }
+}
+
 /*
 .ghost_btn_teal:hover,
 .ghost_btn_teal:active {

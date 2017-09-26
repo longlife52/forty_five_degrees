@@ -425,6 +425,23 @@ input[type=submit] {
   transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
 
+/* red button */
+.btn_red {
+  background: #e44839;
+  border: none;
+  color: #fafafa;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.625em;
+  font-size: 1em;
+}
+
+.btn_red:hover {
+  background: #fafafa;
+  color: #e44839;
+}
+
 /*
 .ghost_btn_teal:hover,
 .ghost_btn_teal:active {
@@ -730,23 +747,28 @@ input[type=submit] {
   -ms-flex-item-align: end;
   align-self: flex-end;
   margin-top: auto;
+  /*
+    button {
+        background: $red;
+        width: 100%;
+        border: none;
+        color: $white;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: em(10px);
+        font-size: em(16px);
+
+        &:hover {
+            background: $white;
+            color: $red;
+        }
+    }
+    */
 }
 
 .card-three__read-more button {
-  background: #e44839;
   width: 100%;
-  border: none;
-  color: #fafafa;
-  text-align: center;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 0.625em;
-  font-size: 1em;
-}
-
-.card-three__read-more button:hover {
-  background: #fafafa;
-  color: #e44839;
 }
 
 /* two column cards */
@@ -829,22 +851,42 @@ input[type=submit] {
   margin-top: auto;
 }
 
-.card-two__learn-more button {
-  background: #e44839;
-  border: none;
-  color: #fafafa;
-  text-align: center;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 0.625em;
-  font-size: 1em;
-}
+/*
+.card-two__learn-more {
+    button {
+        background: $red;
+        border: none;
+        color: $white;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: em(10px);
+        font-size: em(16px);
 
-.card-two__learn-more button:hover {
-  background: #fafafa;
-  color: #e44839;
+        &:hover {
+            background: $white;
+            color: $red;
+        }
+    }
 }
+*/
+/* red button
+.btn_red {
+    background: $red;
+    border: none;
+    color: $white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: em(10px);
+    font-size: em(16px);
 
+    &:hover {
+        background: $white;
+        color: $red;
+    }
+}
+*/
 /* horizontal card */
 /* BILLBOARD WITH BLACK BACKGROUND */
 .billboard_black {

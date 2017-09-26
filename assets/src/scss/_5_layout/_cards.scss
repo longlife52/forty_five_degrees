@@ -51,6 +51,13 @@
 .card-three__read-more {
     align-self: flex-end;
     margin-top: auto;
+
+    button {
+        width: 100%;
+    }
+
+
+    /*
     button {
         background: $red;
         width: 100%;
@@ -67,6 +74,7 @@
             color: $red;
         }
     }
+    */
 }
 
 
@@ -132,6 +140,7 @@
     }
 }
 
+/*
 .card-two__learn-more {
     button {
         background: $red;
@@ -149,5 +158,24 @@
         }
     }
 }
+*/
+
+/* red button
+.btn_red {
+    background: $red;
+    border: none;
+    color: $white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: em(10px);
+    font-size: em(16px);
+
+    &:hover {
+        background: $white;
+        color: $red;
+    }
+}
+*/
 
 /* horizontal card */
