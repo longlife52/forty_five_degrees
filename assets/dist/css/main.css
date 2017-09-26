@@ -1188,16 +1188,93 @@ input[type=submit] {
     display: block;
     position: absolute;
     z-index: 100;
-    top: 260px;
-    left: 70px;
+    top: 16.25em;
+    left: 4.375em;
   }
 }
 
 @media (min-width: 1000px) {
   .btn_pullup {
-    top: 400px;
-    left: 200px;
+    top: 25em;
+    left: 12.5em;
   }
+}
+
+.workshop {
+  /* ::after on h3 creates the line from answers.squarespace.com */
+}
+
+.workshop h2 {
+  margin-bottom: 0;
+}
+
+.workshop h3 {
+  margin-top: 0;
+}
+
+.workshop h3::after {
+  background: none repeat scroll 0 0 #e44839;
+  bottom: -0.5em;
+  content: "";
+  display: block;
+  height: 0.125em;
+  position: relative;
+  width: 2.25em;
+  margin: auto;
+}
+
+.workshop p {
+  font-size: 1.25em;
+}
+
+@media (min-width: 650px) {
+  .workshop h2 {
+    font-size: 2em;
+  }
+  .workshop h3 {
+    font-size: 1.5em;
+  }
+}
+
+.workshop_wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width: 650px) {
+  .workshop_wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.workshop_description {
+  padding-left: 1.25em;
+  padding-right: 1.875em;
+}
+
+.workshop_description ul li {
+  font-family: "Roboto Condensed";
+  font-size: 1.25em;
+}
+
+.workshop_details {
+  padding-left: 20px;
+}
+
+.bold {
+  color: #45a29e;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */
