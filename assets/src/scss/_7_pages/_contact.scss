@@ -1,0 +1,11 @@
+.contact_call {
+    p {
+        padding-bottom: 2em;
+    }
+}
+
+@media (min-width: 1150px) {
+    .contact_call h2 {
+        padding-top: 2em;
+    }
+}

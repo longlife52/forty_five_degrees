@@ -1,6 +1,11 @@
 /* FLEX STYLES */
 .flex_wrapper {
     display: flex;
+    flex-direction: column;
+
+    @media (min-width: 650px) {
+        flex-direction: row;
+    }
 }
 
 .flex_content {

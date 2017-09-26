@@ -1066,6 +1066,21 @@ input[type=submit] {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width: 650px) {
+  .flex_wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
 }
 
 .flex_content {
@@ -1317,6 +1332,16 @@ input[type=submit] {
 
 .link_area p:last-child {
   padding: 0 3.75em 1.25em 4.375em;
+}
+
+.contact_call p {
+  padding-bottom: 2em;
+}
+
+@media (min-width: 1150px) {
+  .contact_call h2 {
+    padding-top: 2em;
+  }
 }
 
 /* WORKSHOPS */
