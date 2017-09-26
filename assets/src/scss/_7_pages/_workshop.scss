@@ -69,6 +69,10 @@
         font-family: $roboto;
         font-size: 1.25em;
     }
+
+    @media (min-width: 850px) {
+        margin-left: em(80px);
+    }
 }
 
 .workshop_details {

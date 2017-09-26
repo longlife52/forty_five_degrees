@@ -1311,6 +1311,12 @@ input[type=submit] {
   font-size: 1.25em;
 }
 
+@media (min-width: 850px) {
+  .workshop_description {
+    margin-left: 5em;
+  }
+}
+
 .workshop_details {
   padding-left: 1.25em;
 }
