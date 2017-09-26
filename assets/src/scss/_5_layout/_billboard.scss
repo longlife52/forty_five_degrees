@@ -1,4 +1,9 @@
 /* BILLBOARD WITH BLACK BACKGROUND */
+.billboard_black_wrapper {
+    background-color: $black;
+    width: 100%;
+}
+
 .billboard_black {
     background-color: $black;
     h1,
@@ -27,8 +32,14 @@
     }
 }
 
-
 .billboard {
+    max-width: 775px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+
     h1 {
         text-transform: uppercase;
         text-align: center;

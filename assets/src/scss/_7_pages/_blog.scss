@@ -1,3 +1,17 @@
+/* BLOG */
+
+/* ::after on h2 creates the line from answers.squarespace.com */
+.blog_title h2::after {
+    background: none repeat scroll 0 0 $red;
+    bottom: -0.5em;
+    content: "";
+    display: block;
+    height: 0.125em;
+    position: relative;
+    width: 2.25em;
+    margin: auto;
+}
+
 .blog_content {
     p:first-child {
         font-size: em(24px);

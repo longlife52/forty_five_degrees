@@ -897,6 +897,11 @@ input[type=submit] {
 */
 /* horizontal card */
 /* BILLBOARD WITH BLACK BACKGROUND */
+.billboard_black_wrapper {
+  background-color: #0b0c10;
+  width: 100%;
+}
+
 .billboard_black {
   background-color: #0b0c10;
 }
@@ -927,6 +932,25 @@ input[type=submit] {
 .billboard_teal h2,
 .billboard_teal p {
   color: #fafafa;
+}
+
+.billboard {
+  max-width: 775px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .billboard h1 {
@@ -1007,10 +1031,6 @@ input[type=submit] {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-}
-
-.content_img {
-  content-fit: cover;
 }
 
 .content_img {
@@ -1170,6 +1190,19 @@ input[type=submit] {
 /* TRAININGS PAGE STYLES */
 .trainings_pad {
   padding-top: 4.375em;
+}
+
+/* BLOG */
+/* ::after on h2 creates the line from answers.squarespace.com */
+.blog_title h2::after {
+  background: none repeat scroll 0 0 #e44839;
+  bottom: -0.5em;
+  content: "";
+  display: block;
+  height: 0.125em;
+  position: relative;
+  width: 2.25em;
+  margin: auto;
 }
 
 .blog_content p:first-child {
@@ -1355,10 +1388,6 @@ input[type=submit] {
 
 .workshop_button {
   margin-top: 3.125em;
-}
-
-.links p {
-  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
