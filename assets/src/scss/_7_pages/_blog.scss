@@ -1,4 +1,18 @@
 /* BLOG */
+.blog_title {
+
+    h1 {
+        font-size: em(50px);
+        padding-bottom: 0;
+    }
+
+    h2 {
+        font-size: em(32px);
+        text-transform: lowercase;
+        padding-top: 0;
+        padding-bottom: em(50px);
+    }
+}
 
 /* ::after on h2 creates the line from answers.squarespace.com */
 .blog_title h2::after {
