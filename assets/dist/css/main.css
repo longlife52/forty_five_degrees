@@ -386,6 +386,10 @@ input[type=submit] {
   color: #e44839;
 }
 
+.links p {
+  margin: 0;
+}
+
 /*------------------------------------*    #TYPOGRAPHY
 \*------------------------------------*/
 /* #BUTTONS */
@@ -679,6 +683,10 @@ input[type=text] {
 input[type=submit] {
   background-color: #e44839;
   color: #fafafa;
+}
+
+.footer_pullup {
+  margin-top: 0;
 }
 
 /* CARDS */
@@ -1005,9 +1013,13 @@ input[type=submit] {
   content-fit: cover;
 }
 
-.content_img img {
-  max-width: 100%;
-  height: auto;
+.content_img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 85% center;
+  object-position: 85% center;
 }
 
 .content_text_coaching {
@@ -1343,6 +1355,10 @@ input[type=submit] {
 
 .workshop_button {
   margin-top: 3.125em;
+}
+
+.links p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
