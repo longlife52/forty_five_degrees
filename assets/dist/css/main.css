@@ -755,24 +755,6 @@ input[type=submit] {
   -ms-flex-item-align: end;
   align-self: flex-end;
   margin-top: auto;
-  /*
-    button {
-        background: $red;
-        width: 100%;
-        border: none;
-        color: $white;
-        text-align: center;
-        font-weight: bold;
-        text-transform: uppercase;
-        padding: em(10px);
-        font-size: em(16px);
-
-        &:hover {
-            background: $white;
-            color: $red;
-        }
-    }
-    */
 }
 
 .card-three__read-more button {
@@ -816,9 +798,6 @@ input[type=submit] {
   -ms-flex: 1;
   flex: 1;
   margin-bottom: 1.25em;
-  /*
-    margin-right: 20px;
-    */
   color: #fafafa;
   padding-bottom: 1.25em;
   display: -webkit-box;
@@ -830,11 +809,6 @@ input[type=submit] {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  /*
-    &:last-child {
-        margin-right: 0;
-    }
-    */
 }
 
 .card-two h4 {
@@ -857,6 +831,10 @@ input[type=submit] {
   -ms-flex-item-align: end;
   align-self: flex-end;
   margin-top: auto;
+}
+
+.card-two__learn-more {
+  margin: 0 auto;
 }
 
 /*
@@ -896,6 +874,24 @@ input[type=submit] {
 }
 */
 /* horizontal card */
+/*
+button {
+    background: $red;
+    width: 100%;
+    border: none;
+    color: $white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: em(10px);
+    font-size: em(16px);
+
+    &:hover {
+        background: $white;
+        color: $red;
+    }
+}
+*/
 /* BILLBOARDS */
 /* GENERAL BILLBOARD STYLE FOR WHITE AND BLACK */
 .billboard {
@@ -1144,29 +1140,12 @@ input[type=submit] {
 	** Just remember, these are set up as extends and not as actual class names **
 \*------------------------------------*/
 /* #PAGES */
-/* index.html STYLES
-.home {
-    background: black;
-}
-*/
+/* index.html STYLES */
 .image_full {
   width: 100%;
   height: auto;
 }
 
-/*
-
-.hero {
-    background: url(../img/cape.jpg) $dark-teal;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.hero_box {
-    padding-top: em(500px);
-}
-*/
 .hero_call_to_action {
   background: #0b0c10;
   display: -webkit-box;
@@ -1367,100 +1346,6 @@ input[type=submit] {
   }
 }
 
-/* BLOG
-.blog_title {
-
-    h1 {
-        font-size: em(50px);
-        padding-bottom: 0;
-    }
-
-    h2 {
-        font-size: em(32px);
-        text-transform: lowercase;
-        padding-top: 0;
-        padding-bottom: em(50px);
-    }
-}
-
-
-.blog_title h2::after {
-    background: none repeat scroll 0 0 $red;
-    bottom: -0.5em;
-    content: "";
-    display: block;
-    height: 0.125em;
-    position: relative;
-    width: 2.25em;
-    margin: auto;
-}
-
-.blog_content {
-    p:first-child {
-        font-size: em(24px);
-        padding: em(10px) em(20px) em(10px) em(20px);
-    }
-
-    p {
-        padding: 0 em(20px) 0 em(20px);
-    }
-
-    h3 {
-        margin-bottom: 0;
-        padding: 0 em(20px) 0 em(20px);
-    }
-
-    @media (min-width: 550px) {
-        p:first-child {
-            font-size: em(30px);
-            padding: em(10px) em(60px) em(10px) em(60px);
-        }
-
-        p {
-            padding: 0 em(60px) 0 em(60px);
-        }
-
-        h3 {
-            margin-bottom: 0;
-            padding: 0 em(60px) 0 em(50px);
-        }
-    }
-}
-
-.blog_image img {
-    width: 100%;
-    height: auto;
-}
-
-@media (min-width: 550px) {
-    .blog_image {
-        float: right;
-        width: 50%;
-        padding-top: em(50px);
-        margin-left: 10px;
-    }
-}
-
-.blog_copy {
-    p:last-child {
-        padding-bottom: em(100px);
-    }
-}
-
-.link_area {
-    background-color: $dark-teal;
-
-    h3 {
-        color: $white;
-        text-transform: uppercase;
-        padding: em(30px) em(60px) 0 em(60px);
-    }
-
-    p:last-child {
-        padding: 0 em(60px) em(20px) em(70px);
-    }
-}
-*/
 .contact_call p {
   padding-bottom: 2em;
 }

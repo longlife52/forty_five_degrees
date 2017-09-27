@@ -55,25 +55,6 @@
     button {
         width: 100%;
     }
-
-    /*
-    button {
-        background: $red;
-        width: 100%;
-        border: none;
-        color: $white;
-        text-align: center;
-        font-weight: bold;
-        text-transform: uppercase;
-        padding: em(10px);
-        font-size: em(16px);
-
-        &:hover {
-            background: $white;
-            color: $red;
-        }
-    }
-    */
 }
 
 
@@ -103,20 +84,10 @@
     border: em(1px) solid $light-grey;
     flex: 1;
     margin-bottom: em(20px);
-
-    /*
-    margin-right: 20px;
-    */
     color: $white;
     padding-bottom: em(20px);
     display: flex;
     flex-direction: column;
-
-    /*
-    &:last-child {
-        margin-right: 0;
-    }
-    */
 
     h4 {
         color: $white;
@@ -137,6 +108,11 @@
         align-self: flex-end;
         margin-top: auto;
     }
+}
+
+.card-two__learn-more {
+    margin: 0 auto;
+
 }
 
 /*
@@ -178,3 +154,22 @@
 */
 
 /* horizontal card */
+
+/*
+button {
+    background: $red;
+    width: 100%;
+    border: none;
+    color: $white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: em(10px);
+    font-size: em(16px);
+
+    &:hover {
+        background: $white;
+        color: $red;
+    }
+}
+*/
