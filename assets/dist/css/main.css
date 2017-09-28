@@ -1241,6 +1241,51 @@ button {
   margin: 3.125em;
 }
 
+.carousel_space p,
+.carousel_space h3 {
+  margin: 0;
+}
+
+.carousel_space h3 {
+  padding-left: 1.875em;
+}
+
+.testimonial_words {
+  font-size: 1.5em;
+  color: #1f2833;
+  padding-top: 1.875em;
+}
+
+.testimonial_content p {
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+}
+
+/* ::after on h2 creates the line from answers.squarespace.com */
+.testimonial_content p:first-child::after {
+  background: none repeat scroll 0 0 #e44839;
+  bottom: -0.5em;
+  content: "";
+  display: block;
+  height: 0.125em;
+  position: relative;
+  width: 2.25em;
+  text-align: left;
+  margin-bottom: 1.25em;
+}
+
+.testimonial_name {
+  padding-top: 0.625em;
+  color: #1f2833;
+  font-weight: bold;
+}
+
+.testimonial_title {
+  color: #45a29e;
+  padding-bottom: 1.875em;
+  font-weight: lighter;
+}
+
 /* ABOUT */
 .team_image {
   /*  adds red line! */

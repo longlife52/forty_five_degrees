@@ -84,4 +84,49 @@
     background: $white;
     color: red;
     margin: em(50px);
+
+    p,
+    h3 {
+        margin: 0;
+    }
+
+    h3 {
+        padding-left: em(30px);
+    }
+}
+
+.testimonial_words {
+    font-size: 1.5em;
+    color: $dark-grey;
+    padding-top: em(30px);
+}
+
+.testimonial_content p {
+    padding-left: em(20px);
+    padding-right: em(20px);
+}
+
+/* ::after on h2 creates the line from answers.squarespace.com */
+.testimonial_content p:first-child::after {
+    background: none repeat scroll 0 0 $red;
+    bottom: -0.5em;
+    content: "";
+    display: block;
+    height: 0.125em;
+    position: relative;
+    width: 2.25em;
+    text-align: left;
+    margin-bottom: em(20px);
+}
+
+.testimonial_name {
+    padding-top: em(10px);
+    color: $dark-grey;
+    font-weight: bold;
+}
+
+.testimonial_title {
+    color: $dark-teal;
+    padding-bottom: em(30px);
+    font-weight: lighter;
 }
