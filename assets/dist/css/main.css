@@ -1147,7 +1147,7 @@ button {
 }
 
 .hero_call_to_action {
-  background: #0b0c10;
+  background: #1f2833;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1228,12 +1228,17 @@ button {
 .carousel_wrapper {
   display: grid;
   grid-template-columns: 300px auto;
+  background-color: #1f2833;
+}
+
+.carousel_quote_mark {
+  margin-top: 3.125em;
 }
 
 .carousel_space {
   background: #fafafa;
   color: red;
-  margin-left: 50px;
+  margin: 3.125em;
 }
 
 /* ABOUT */
