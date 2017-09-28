@@ -629,6 +629,13 @@ input[type=submit] {
   text-align: center;
   color: #fafafa;
   font-size: 1.5em;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+.footer h4 {
+  font-size: 1.5em;
+  padding-top: 2em;
 }
 
 .footer .icon {
@@ -636,7 +643,7 @@ input[type=submit] {
   height: 3em;
   display: block;
   margin: auto;
-  padding-bottom: 2em;
+  padding: 3em 0 2em 0;
 }
 
 .footer .icon:hover {
