@@ -68,3 +68,16 @@
         font-size: 3em;
     }
 }
+
+/* owl carousel styles */
+.carousel_wrapper {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+.carousel_space {
+    background: $white;
+    color: red;
+    margin-left: 50px;
+
+}

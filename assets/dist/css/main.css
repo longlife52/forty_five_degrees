@@ -1224,6 +1224,18 @@ button {
   font-size: 3em;
 }
 
+/* owl carousel styles */
+.carousel_wrapper {
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+
+.carousel_space {
+  background: #fafafa;
+  color: red;
+  margin-left: 50px;
+}
+
 /* ABOUT */
 .team_image {
   /*  adds red line! */
