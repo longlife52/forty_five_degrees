@@ -83,6 +83,11 @@ input[type=text] {
     margin-bottom: 20px;
 }
 
+input:focus,
+input:hover {
+    background-color: $white;
+}
+
 input[type=submit] {
     background-color: $red;
     color: $white;

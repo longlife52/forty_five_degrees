@@ -697,6 +697,11 @@ input[type=text] {
   margin-bottom: 20px;
 }
 
+input:focus,
+input:hover {
+  background-color: #fafafa;
+}
+
 input[type=submit] {
   background-color: #e44839;
   color: #fafafa;
