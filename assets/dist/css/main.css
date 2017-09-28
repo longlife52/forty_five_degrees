@@ -671,18 +671,47 @@ input[type=submit] {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width: 550px) {
+  .flex-form {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
 }
 
 input[type=text] {
   background-color: #0b0c10;
   color: #fafafa;
   font-size: 1em;
-  border-bottom: solid 0.125em #66fcf1;
+  border: solid 0.125em #66fcf1;
+  padding: 1.25em 0 1.25em 0.625em;
+  margin-bottom: 20px;
 }
 
 input[type=submit] {
   background-color: #e44839;
   color: #fafafa;
+  font-size: 1em;
+  padding: 1.25em 1.25em;
+}
+
+@media (min-width: 550px) {
+  input[type=text] {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  input[type=submit] {
+    padding: 0 1.25em 0 1.25em;
+  }
 }
 
 .footer_pullup {
