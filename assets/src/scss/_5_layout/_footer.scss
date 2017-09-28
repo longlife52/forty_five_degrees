@@ -95,6 +95,12 @@ input[type=submit] {
     padding: em(20px) em(20px);
 }
 
+input[type=submit]:hover,
+input[type=submit]:focus {
+    border: solid $red 3px;
+    background: $black;
+}
+
 @media (min-width: 550px) {
     input[type=text] {
         margin-right: 20px;
