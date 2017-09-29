@@ -5,20 +5,36 @@
 //= include ../../../bower_components/jquery/dist/jquery.js
 //= include ../../../bower_components/jquery.fitvids/jquery.fitvids.js
 
-/* jQuery(function ($) {
+jQuery(function ($) {
 
     var site = new SiteController($);
     site.init();
 
 });
-*/
 
-/*
+
 function SiteController($) {
     self.init = function () {
+        /*
         initFitVid();
+        */
+        initMobileNav();
     };
 
+    function initMobileNav() {
+        // CLICK ON TRIGGER, OPEN THE MOBILE NAV
+        $('.js-mobile-trigger').click(function (e) {
+            e.preventDefault();
+            $('.js-mobile-nav').addClass('open');
+        });
+        // CLICK ON CLOSE BUTTON, CLOSE MOBILE NAV
+        $('.js-mobile-nav-close').click(function (e) {
+            e.preventDefault();
+            $('.js-mobile-nav').removeClass('open');
+        });
+    }
+
+/*
 	// MAKES VIDEOS RESIZE RESPONSIVELY
     function initFitVid() {
 
@@ -29,7 +45,7 @@ function SiteController($) {
         $('iframe[src*="vimeo"]').parent().fitVids();
 
     }
+*/
 
     return self;
 }
-*/

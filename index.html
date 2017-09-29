@@ -19,6 +19,33 @@
 <body>
     <div class="container">
 
+<!-- HAMBURGER NAVIGATION -->
+        <nav class="mobile-nav js-mobile-nav">
+            <div class="mobile-nav__close">
+                <a href="#" class="js-mobile-nav-close"> &times;</a>
+            </div>
+            <ul>
+                <li><a href="index.html"><img class="hvr-wobble-to-top-right" src="/assets/dist/img/logo_small.png" alt="45 Degrees logo" title="Go to 45 Degrees Home Page"></a></li>
+
+                <li><a href="coaching.html">Coaching</a></li>
+
+                <li><a href="trainings.html">Trainings</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="blog.html">Blog</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    <div class="hamburger">
+        <a href="#" class="js-mobile-trigger">
+            <svg class="icon icon-menu"><use xlink:href="/assets/dist/img/symbol-defs.svg#icon-menu"></use></svg>
+        </a>
+
+    </div> <!-- closes hamburger menu -->
+
 <!-- NAVIGATION -->
     <nav class="nav">
         <h2 class="hide">navigation</h2>
@@ -226,7 +253,7 @@
                 <label for="email"></label>
                 <input type="text"  name="email" placeholder="Email Address">
 
-                <input type="submit" value="SIGN UP">
+                <input type="submit" value="SIGN UP" class="submit_hover">
             </form>
         </div>
 

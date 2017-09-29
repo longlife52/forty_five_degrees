@@ -10,6 +10,12 @@ header {
 
 /*  #NAV */
 .nav {
+    display: none;
+
+    @media (min-width: 750px) {
+        display: block;
+    }
+
     z-index: map-get($zindex, nav);
     background: $black;
     position: sticky;
@@ -41,4 +47,71 @@ header {
 
 .nav ul li.selected a {
     color: $bright_teal;
+}
+
+/* HAMBURGER NAVIGATION */
+.hamburger {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: $black;
+    z-index: map-get($zindex, hamburger);
+
+    svg {
+        width: 30px;
+        height: 30px;
+        fill: $light-grey;
+    }
+
+    @media (min-width: 750px) {
+        display: none;
+    }
+}
+
+.mobile-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 100%;
+    transition: bottom 0.25s ease-in-out, top 0.25s ease-in-out;
+
+    &.open {
+        bottom: 0;
+        top: 0;
+    }
+
+    &__close {
+        position: absolute;
+        right: em(10px);
+        top: em(10px);
+
+        a {
+            color: $dark-grey;
+            text-decoration: none;
+            font-size: 3em;
+        }
+    }
+
+    ul {
+        @include no-bullets;
+
+        li {
+            padding-bottom: em(20px);
+            padding-top: em(20px);
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                font-family: $roboto;
+                font-size: 1.25em;
+                color: $dark-grey;
+                padding-left: em(20px);
+            }
+        }
+    }
 }
