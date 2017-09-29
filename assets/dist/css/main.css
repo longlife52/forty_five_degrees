@@ -1277,6 +1277,21 @@ button {
 \*------------------------------------*/
 /* #PAGES */
 /* index.html STYLES */
+/* LOGO ON HOMEPAGE FOR MOIBILE DISPLAY */
+.logo_homepage_mobile {
+  margin: auto;
+}
+
+@media (min-width: 750px) {
+  .logo_homepage_mobile {
+    display: none;
+  }
+}
+
+.titles_homepage_mobile h2 {
+  padding-top: 0;
+}
+
 .image_full {
   width: 100%;
   height: auto;
