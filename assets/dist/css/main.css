@@ -1269,6 +1269,7 @@ button {
   text-transform: uppercase;
   text-align: center;
   font-size: 3em;
+  padding-top: 1.25em;
 }
 
 /* owl carousel styles */
