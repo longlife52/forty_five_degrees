@@ -25,9 +25,12 @@
     align-items: center;
     justify-content: center;
     background-color: $black;
+    padding: 2em;
 
     h2 {
-        color: $white;
+        color: $bright_teal;
+        font-size: 2.5em;
+        margin: 0;
     }
 
     p {
