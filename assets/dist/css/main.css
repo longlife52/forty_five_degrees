@@ -1055,6 +1055,12 @@ button {
   font-size: 3em;
   margin: 0;
   padding: 0 0.3125em 1.25em 0.3125em;
+  -webkit-animation-duration: 0.9s;
+  animation-duration: 0.9s;
+  -webkit-animation-name: fadeAndScale;
+  animation-name: fadeAndScale;
+  -webkit-animation-timing-function: cubic-bezier(0.71, 0.55, 0.62, 1.57);
+  animation-timing-function: cubic-bezier(0.71, 0.55, 0.62, 1.57);
 }
 
 .billboard h2 {
@@ -1063,6 +1069,38 @@ button {
   font-size: 2.5em;
   margin: 0;
   padding: 1.25em 0.3125em 0 0.3125em;
+  -webkit-animation-duration: 0.9s;
+  animation-duration: 0.9s;
+  -webkit-animation-name: fadeAndScale;
+  animation-name: fadeAndScale;
+  -webkit-animation-timing-function: cubic-bezier(0.71, 0.55, 0.62, 1.57);
+  animation-timing-function: cubic-bezier(0.71, 0.55, 0.62, 1.57);
+}
+
+@-webkit-keyframes fadeAndScale {
+  from {
+    opacity: 0;
+    -webkit-transform: scale 0.9, 0.9;
+    transform: scale 0.9, 0.9;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes fadeAndScale {
+  from {
+    opacity: 0;
+    -webkit-transform: scale 0.9, 0.9;
+    transform: scale 0.9, 0.9;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
 }
 
 .billboard p {
@@ -1298,6 +1336,22 @@ button {
 .image_full {
   width: 100%;
   height: auto;
+}
+
+/* Rotate */
+.hover06 figure img {
+  -webkit-transform: rotate(15deg) scale(1.4);
+  -ms-transform: rotate(15deg) scale(1.4);
+  transform: rotate(15deg) scale(1.4);
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.hover06 figure:hover img {
+  -webkit-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
 }
 
 .hero_call_to_action {
