@@ -11,11 +11,11 @@ Referred to and utilized Amy Dutton's video lectures + broiler plate to provide 
 
 Used code from [this source](http://ianlunn.github.io/Hover/) to create hover effect on logo + Facebook icon.
 
-Referred to the book Animation in HTML, CSS, and Javascript by Kirupa Chinnnathambi for fadeAndScale for .billboard h1 + h2 animations.
+Referred to the book Animation in HTML, CSS, and Javascript by Kirupa Chinnnathambi for fadeAndScale and for .billboard h1 + h2 animations.
 
 To create the red and bright_teal lines on the site, I referred to [this source](https://stackoverflow.com/questions/28434521/use-before-after-pseudo-element-to-make-a-line.
 
-For the Flexbox nav and single line Flexbox form, I referred to tutorials on from [What the Flexbox](https://flexbox.io/).
+For the Flexbox nav and single line Flexbox form, I referred to tutorials from [What the Flexbox](https://flexbox.io/).
 
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
