@@ -29,6 +29,7 @@ Per the grading rubric, here's a map to the required elements.
 - variables (colors and font)
 - mixins (no bullets for ul)
 - functions em()
+- SASS map for z-index
 
 ### Animations
 - Logo in Nav + Facebook icon = hvr-wobble-to-top-right
