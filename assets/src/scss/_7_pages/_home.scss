@@ -18,16 +18,6 @@
     height: auto;
 }
 
-/* Rotate */
-.hover06 figure img {
-    transform: rotate(15deg) scale(1.4);
-    transition: 0.3s ease-in-out;
-}
-
-.hover06 figure:hover img {
-    transform: rotate(0) scale(1);
-}
-
 .hero_call_to_action {
     background: $dark-grey;
     display: flex;

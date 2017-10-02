@@ -1202,22 +1202,6 @@ input[type=submit]:focus {
   height: auto;
 }
 
-/* Rotate */
-.hover06 figure img {
-  -webkit-transform: rotate(15deg) scale(1.4);
-  -ms-transform: rotate(15deg) scale(1.4);
-  transform: rotate(15deg) scale(1.4);
-  -webkit-transition: 0.3s ease-in-out;
-  -o-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-
-.hover06 figure:hover img {
-  -webkit-transform: rotate(0) scale(1);
-  -ms-transform: rotate(0) scale(1);
-  transform: rotate(0) scale(1);
-}
-
 .hero_call_to_action {
   background: #1f2833;
   display: -webkit-box;
