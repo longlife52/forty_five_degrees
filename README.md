@@ -13,7 +13,7 @@ Used code from [this source](http://ianlunn.github.io/Hover/) to create hover ef
 
 Referred to the book Animation in HTML, CSS, and Javascript by Kirupa Chinnnathambi for fadeAndScale and for .billboard h1 + h2 animations.
 
-To create the red and bright_teal lines on the site, I referred to [this source](https://stackoverflow.com/questions/28434521/use-before-after-pseudo-element-to-make-a-line.
+To create the red and bright_teal lines on the site, I referred to [this source](https://stackoverflow.com/questions/28434521/use-before-after-pseudo-element-to-make-a-line).
 
 For the Flexbox nav and single line Flexbox form, I referred to tutorials from [What the Flexbox](https://flexbox.io/).
 
