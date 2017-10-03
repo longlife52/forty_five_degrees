@@ -1,6 +1,6 @@
 # Semester Project - MMC6145, Lisa Long
 
-## Github Project Link
+## Project Notes for Future Developers
 - Uses Sass
 - Uses Prepros
 - Javascript libraries include
