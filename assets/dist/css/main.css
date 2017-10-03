@@ -1537,6 +1537,7 @@ input[type=submit] {
   -webkit-transition: bottom 0.25s ease-in-out, top 0.25s ease-in-out;
   -o-transition: bottom 0.25s ease-in-out, top 0.25s ease-in-out;
   transition: bottom 0.25s ease-in-out, top 0.25s ease-in-out;
+  z-index: 9010;
 }
 
 .mobile-nav.open {
