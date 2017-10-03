@@ -50,12 +50,10 @@
         padding: 0 em(5px) 0 em(5px);
     }
 
-    @media (min-width: 450px) {
+    @include breakpoint (mobile) {
         h1 {
             font-size: 4.5em;
-            padding-bottom: em(10px);/*
-            margin-top: em(-5px);
-            */
+            padding-bottom: em(10px);
         }
 
         h2 {
@@ -67,7 +65,7 @@
         }
     }
 
-    @media (min-width: 650px) {
+    @include breakpoint (small) {
         h1 {
             font-size: 5em;
         }
@@ -137,7 +135,7 @@
         padding: 0 em(5px) 0 em(5px);
     }
 
-    @media (min-width: 450px) {
+    @include breakpoint (mobile) {
         h1 {
             font-size: 4.5em;
             padding-bottom: em(10px);/*
@@ -154,7 +152,7 @@
         }
     }
 
-    @media (min-width: 650px) {
+    @include breakpoint (small) {
         h1 {
             font-size: 5em;
         }

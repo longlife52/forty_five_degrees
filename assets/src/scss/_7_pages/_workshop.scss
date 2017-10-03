@@ -2,7 +2,7 @@
 .btn_pullup {
     display: none;
 
-    @media (min-width: 750px) {
+    @include breakpoint (portrait) {
         display: block;
         position: absolute;
         z-index: 100;
@@ -11,7 +11,7 @@
     }
 
 
-    @media (min-width: 1000px) {
+    @include breakpoint (landscape) {
         display: block;
         position: absolute;
         z-index: 100;
@@ -46,7 +46,7 @@
         font-size: 1.25em;
     }
 
-    @media (min-width: 650px) {
+    @include breakpoint (small) {
         h2 {
             font-size: 2em;
         }
@@ -74,7 +74,7 @@
         font-size: 1.25em;
     }
 
-    @media (min-width: 850px) {
+    @include breakpoint (smaller-screen) {
         margin-left: em(80px);
     }
 }

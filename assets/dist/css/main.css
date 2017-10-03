@@ -268,8 +268,7 @@ Wobble To Top Right */
   -webkit-filter: grayscale(0%);
 }
 
-/*------------------------------------*    #BREAKPOINTS
-\*------------------------------------*/
+/* #BREAKPOINTS */
 /* #VARIABLES */
 /* GLOBAL */
 /* COLORS */
@@ -1952,9 +1951,6 @@ input[type=submit]:focus {
   .billboard h1 {
     font-size: 4.5em;
     padding-bottom: 0.625em;
-    /*
-            margin-top: em(-5px);
-            */
   }
   .billboard h2 {
     font-size: 3.5em;
@@ -2080,7 +2076,7 @@ input[type=submit]:focus {
   flex-direction: column;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 750px) {
   .flex_wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2158,6 +2154,7 @@ input[type=submit]:focus {
 /* LOGO ON HOMEPAGE FOR MOIBILE DISPLAY */
 .logo_homepage_mobile {
   margin: auto;
+  padding-top: 3.125em;
 }
 
 @media (min-width: 750px) {
@@ -2230,7 +2227,7 @@ input[type=submit]:focus {
   margin-top: 0;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 600px) {
   .services-style h2 {
     font-size: 2em;
   }
@@ -2278,17 +2275,6 @@ input[type=submit]:focus {
   }
 }
 
-/*
-.carousel_wrapper {
-    display: grid;
-    grid-template-columns: 300px auto;
-    background-color: $dark-grey;
-}
-
-.carousel_quote_mark {
-    margin-top: em(50px);
-}
-*/
 .carousel_space {
   background: #fafafa;
   color: red;

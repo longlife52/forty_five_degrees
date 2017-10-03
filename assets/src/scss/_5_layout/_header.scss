@@ -8,7 +8,7 @@
 .nav {
     display: none;
 
-    @media (min-width: 750px) {
+    @include breakpoint (portrait) {
         display: block;
     }
 
@@ -62,7 +62,7 @@
         padding-bottom: em(10px);
     }
 
-    @media (min-width: 750px) {
+    @include breakpoint (portrait) {
         padding-top: 0;
     }
 }
@@ -79,7 +79,7 @@
         fill: $light-grey;
     }
 
-    @media (min-width: 750px) {
+    @include breakpoint (portrait) {
         display: none;
     }
 }

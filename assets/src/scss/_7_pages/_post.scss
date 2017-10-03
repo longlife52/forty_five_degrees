@@ -41,7 +41,7 @@
         padding: 0 em(20px) 0 em(20px);
     }
 
-    @media (min-width: 550px) {
+    @include breakpoint (large-mobile) {
         p:first-child {
             font-size: em(30px);
             padding: em(10px) em(60px) em(10px) em(60px);
@@ -63,7 +63,7 @@
     height: auto;
 }
 
-@media (min-width: 550px) {
+@include breakpoint (large-mobile) {
     .blog_image {
         float: right;
         width: 50%;

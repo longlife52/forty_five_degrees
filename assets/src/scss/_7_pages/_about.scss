@@ -45,7 +45,7 @@
     margin-top: 0;
 }
 
-@media (min-width: 750px) {
+@include breakpoint (portrait) {
     .team_card {
         display: grid;
         grid-template-columns: 300px auto;
@@ -54,7 +54,7 @@
     }
 }
 
-@media  (min-width: 1050px) {
+@include breakpoint (extra-landscape) {
     .team_card {
         grid-template-columns: 600px auto;
     }

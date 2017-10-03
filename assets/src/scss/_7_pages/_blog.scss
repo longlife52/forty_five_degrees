@@ -32,14 +32,14 @@
     padding-top: em(30px);
 }
 
-@media (min-width: 600px) {
+@include breakpoint (larger-mobile) {
     .blog_list_button {
         text-align: right;
         padding-right: em(20px);
     }
 }
 
-@media (min-width: 750px) {
+@include breakpoint (portrait) {
     .blog_list_item {
         display: grid;
         grid-template-columns: 300px auto;
@@ -52,7 +52,7 @@
     }
 }
 
-@media (min-width: 900px) {
+@include breakpoint (medium) {
     .blog_list {
         max-width: 775px;
         margin: 0 auto;
