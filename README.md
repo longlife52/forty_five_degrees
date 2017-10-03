@@ -3,7 +3,7 @@
 ## Github Project Link
 - Uses Sass
 - Uses Prepros
-- Javascript libraries
+- Javascript libraries include
     - [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html)
     - [Strip](http://stripjs.com/)
 
@@ -28,7 +28,7 @@ Per the grading rubric, here's a map to the required elements.
 - multiple files
 - nesting (nav and classes throughout site)
 - variables (colors and font)
-- mixins (no bullets for ul)
+- mixins (breakpoints + no bullets for ul)
 - functions em()
 - SASS map for z-index
 
