@@ -18,8 +18,13 @@ function SiteController($) {
         initFitVid();
         initMobileNav();
         initOwl();
+        initSmoothScroll();
 
     };
+
+    function initSmoothScroll() {
+        $('a').smoothScroll();
+    }
 
     function initOwl() {
         $('.owl-carousel').owlCarousel({
@@ -30,8 +35,6 @@ function SiteController($) {
             margin: 10,
             dots: true
         });
-
-
     }
 
     function initMobileNav() {
