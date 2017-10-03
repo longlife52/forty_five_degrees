@@ -6,6 +6,7 @@
 - Javascript libraries include
     - [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html)
     - [Strip](http://stripjs.com/)
+    - [fitvids](https://github.com/davatron5000/FitVids.js)
 
 ## Project Resources
 Referred to and utilized Amy Dutton's video lectures + broiler plate to provide foundation for project.

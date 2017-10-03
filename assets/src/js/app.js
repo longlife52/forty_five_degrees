@@ -1,6 +1,7 @@
 //@prepros-append vendor/owl.carousel.js
 //@prepros-append vendor/strip.pkgd.js
 //@prepros-append vendor/smoothscroll.js
+//@prepros-append vendor/jquery.fitvids.js
 //= include ../../../bower_components/jquery/dist/jquery.js
 //= include ../../../bower_components/jquery.fitvids/jquery.fitvids.js
 
@@ -14,9 +15,7 @@ jQuery(function ($) {
 
 function SiteController($) {
     self.init = function () {
-        /*
         initFitVid();
-        */
         initMobileNav();
         initOwl();
 
@@ -48,8 +47,9 @@ function SiteController($) {
         });
     }
 
-/*
+
 	// MAKES VIDEOS RESIZE RESPONSIVELY
+    // this particular way allows a client to dump in a video anywhere
     function initFitVid() {
 
 		// TARGET YOUTUBE
@@ -59,7 +59,7 @@ function SiteController($) {
         $('iframe[src*="vimeo"]').parent().fitVids();
 
     }
-*/
+
 
     return self;
 }
