@@ -1,14 +1,4 @@
 /* WORKSHOPS */
-.hero_mobile_img_padding {
-    padding-top: em(50px);
-    margin-bottom: 0;
-    background-color: $black;
-
-    @media (min-width: 750px) {
-        padding-top: 0;
-    }
-}
-
 .btn_pullup {
     display: none;
 

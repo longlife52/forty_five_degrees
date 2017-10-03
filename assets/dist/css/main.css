@@ -524,6 +524,29 @@ input[type=submit] {
 }
 
 /* HAMBURGER NAVIGATION */
+.hamburger_stick {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-top: 3.125em;
+  margin-bottom: 0;
+  background-color: #0b0c10;
+}
+
+.hamburger_stick h2 {
+  color: #c5c6c7;
+  text-align: center;
+  margin-top: -1.875em;
+  margin-bottom: 0;
+  padding-bottom: 0.625em;
+}
+
+@media (min-width: 750px) {
+  .hamburger_stick {
+    padding-top: 0;
+  }
+}
+
 .hamburger {
   position: absolute;
   top: 10px;
@@ -575,7 +598,8 @@ input[type=submit] {
 .mobile-nav__close {
   position: absolute;
   right: 0.625em;
-  top: 0.625em;
+  top: 2.8125em;
+  z-index: 9010;
 }
 
 .mobile-nav__close a {
@@ -1475,18 +1499,6 @@ input[type=submit]:focus {
 }
 
 /* WORKSHOPS */
-.hero_mobile_img_padding {
-  padding-top: 3.125em;
-  margin-bottom: 0;
-  background-color: #0b0c10;
-}
-
-@media (min-width: 750px) {
-  .hero_mobile_img_padding {
-    padding-top: 0;
-  }
-}
-
 .btn_pullup {
   display: none;
 }

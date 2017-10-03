@@ -46,6 +46,26 @@
 }
 
 /* HAMBURGER NAVIGATION */
+.hamburger_stick {
+    position: sticky;
+    top: 0;
+    padding-top: em(50px);
+    margin-bottom: 0;
+    background-color: $black;
+
+    h2 {
+        color: $light-grey;
+        text-align: center;
+        margin-top: em(-30px);
+        margin-bottom: 0;
+        padding-bottom: em(10px);
+    }
+
+    @media (min-width: 750px) {
+        padding-top: 0;
+    }
+}
+
 .hamburger {
     position: absolute;
     top: 10px;
@@ -83,7 +103,8 @@
     &__close {
         position: absolute;
         right: em(10px);
-        top: em(10px);
+        top: em(45px);
+        z-index: map-get($zindex, hamburger);
 
         a {
             color: $dark-grey;
