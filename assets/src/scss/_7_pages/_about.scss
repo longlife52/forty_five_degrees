@@ -1,4 +1,12 @@
 /* ABOUT */
+.team_title {
+    text-align: center;
+    padding-top: em(20px);
+    padding-bottom: em(20px);
+    color: $dark-grey;
+    font-size: 3em;
+}
+
 .team_image {
     img {
         width: 100%;
@@ -6,8 +14,17 @@
     }
     h2,
     h3 {
-        margin: 0 auto;
-        padding-left: 20px;
+        margin: 0;
+        text-align: left;
+        padding: 0 0 0 em(20px);
+    }
+
+    h2 {
+        padding-left: em(15px);
+    }
+
+    h3 {
+        margin-bottom: em(20px);
     }
 
     /*  adds red line! */
@@ -24,7 +41,8 @@
 }
 
 .team_bio p {
-    padding-left: 20px;
+    padding-left: em(20px);
+    margin-top: 0;
 }
 
 @media (min-width: 750px) {
