@@ -52,6 +52,7 @@
     padding-top: em(50px);
     margin-bottom: 0;
     background-color: $black;
+    z-index: map-get($zindex, nav);
 
     h2 {
         color: $light-grey;

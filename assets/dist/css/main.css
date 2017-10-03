@@ -1479,6 +1479,7 @@ input[type=submit] {
   padding-top: 3.125em;
   margin-bottom: 0;
   background-color: #0b0c10;
+  z-index: 9001;
 }
 
 .hamburger_stick h2 {
@@ -2254,19 +2255,42 @@ input[type=submit]:focus {
 
 /* owl carousel styles */
 .carousel_wrapper {
-  display: grid;
-  grid-template-columns: 300px auto;
   background-color: #1f2833;
+  padding: 1.25em;
+}
+
+@media (min-width: 650px) {
+  .carousel_wrapper {
+    display: grid;
+    grid-template-columns: 300px auto;
+  }
 }
 
 .carousel_quote_mark {
-  margin-top: 3.125em;
+  display: none;
 }
 
+@media (min-width: 650px) {
+  .carousel_quote_mark {
+    display: block;
+    margin-top: -4.375em;
+  }
+}
+
+/*
+.carousel_wrapper {
+    display: grid;
+    grid-template-columns: 300px auto;
+    background-color: $dark-grey;
+}
+
+.carousel_quote_mark {
+    margin-top: em(50px);
+}
+*/
 .carousel_space {
   background: #fafafa;
   color: red;
-  margin: 3.125em;
 }
 
 .carousel_space p,
@@ -2276,6 +2300,12 @@ input[type=submit]:focus {
 
 .carousel_space h3 {
   padding-left: 1.875em;
+}
+
+@media (min-width: 650px) {
+  .carousel_space {
+    margin: 3.125em;
+  }
 }
 
 .testimonial_words {
