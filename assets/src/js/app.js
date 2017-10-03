@@ -1,4 +1,4 @@
-//@prepros-append vendor/owl.carousel.min.js
+//@prepros-append vendor/owl.carousel.js
 //@prepros-append vendor/strip.pkgd.min.js
 //@prepros-append vendor/smoothscroll.js
 //@prepros-append vendor/jquery.scrollUp.min.js
@@ -19,7 +19,22 @@ function SiteController($) {
         initFitVid();
         */
         initMobileNav();
+        initOwl();
+
     };
+
+    function initOwl() {
+        $('.owl-carousel').owlCarousel({
+            items: 1,
+            autoplay: true,
+            loop: true,
+            autoplayHoverPause: true,
+            margin: 10,
+            dots: true
+        });
+
+
+    }
 
     function initMobileNav() {
         // CLICK ON TRIGGER, OPEN THE MOBILE NAV
