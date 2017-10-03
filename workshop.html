@@ -14,10 +14,11 @@
 </head>
 <body>
     <div class="container">
-
-<!-- NAVIGATION -->
-    <nav class="nav">
-        <h2 class="hide">navigation</h2>
+<!-- HAMBURGER NAVIGATION -->
+        <nav class="mobile-nav js-mobile-nav ">
+            <div class="mobile-nav__close">
+                <a href="#" class="js-mobile-nav-close"> &times;</a>
+            </div>
             <ul>
                 <li><a href="index.html"><img class="hvr-wobble-to-top-right" src="/assets/dist/img/logo_small.png" alt="45 Degrees logo" title="Go to 45 Degrees Home Page"></a></li>
 
@@ -31,89 +32,114 @@
 
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-    </nav>
+        </nav>
 
-    <main>
-<!-- HERO -->
-    <div>
+        <div class="hamburger">
+            <a href="#" class="js-mobile-trigger">
+                <svg class="icon icon-menu"><use xlink:href="/assets/dist/img/symbol-defs.svg#icon-menu"></use></svg>
+            </a>
+
+        </div> <!-- closes hamburger menu -->
+
+    <!-- NAVIGATION -->
+        <nav class="nav">
+            <h2 class="hide">navigation</h2>
+                <ul>
+                    <li><a href="index.html"><img class="hvr-wobble-to-top-right" src="/assets/dist/img/logo_small.png" alt="45 Degrees logo" title="Go to 45 Degrees Home Page"></a></li>
+
+                    <li><a href="coaching.html">Coaching</a></li>
+
+                    <li><a href="trainings.html">Trainings</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="blog.html">Blog</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+        </nav>
+
+        <main>
+    <!-- HERO -->
         <div>
-            <img class="image_full" src="/assets/dist/img/cat_large_text.jpg" alt="" title="">
-        </div>
-
-        <div class="button-box btn_pullup">
-            <a href="mailto:garrisonridge@gmail.com"><p class="ghost_button ghost_btn_white">Register Now</p></a>
-        </div>
-    </div>
-
-    <!-- WORKSHOP DETAILS -->
-        <div class="workshop">
-            <h2 class="center-text">Get Out of a Rut</h2>
-            <h3 class="center-text">Learn 7 Highly Effective Techniques</h3>
-
-            <div class="workshop_wrapper">
-                <div class="flex_content workshop_description">
-                    <p>Get unstuck as you learn strategies to move you forward with confidence that you are headed in the right direction. You will gain </p>
-
-                    <ul>
-                        <li>Increased clarity</li>
-                        <li>Practical steps forward</li>
-                        <li>Ideas to implement immediately.</li>
-                    </ul>
-                </div>
-
-                <div class="flex_content workshop_details">
-                    <p>DATE - Saturday, 10/21/17</p>
-                    <p>TIME - 10 a.m. - Noon </p>
-                    <p>PLACE - 1601 Ocean Dr. PVB 32250</p>
-                    <p>COST - $40</p>
-                </div>
-            </div> <!-- closes .flex-wrapper-->
-
-            <div class="center_center">
-                <a href="workshop.html">
-                    <div>
-                        <button class="workshop_button btn_red">Register Now &gt&gt</button>
-                    </div>
-                </a>
+            <div>
+                <img class="image_full" src="/assets/dist/img/cat_large_text.jpg" alt="" title="">
             </div>
-        </div> <!--  closes .workshop -->
-    </main>
 
-<!-- FOOTER -->
-    <footer class="footer">
-        <h2>CONTACT US</h2>
-
-        <p>Let's work together!</p>
-        <p>We'll help you go farther.</p>
-
-        <div class="center-text button-box">
-            <a href="mailto:garrisonridge@gmail.com"><p class="ghost_button ghost_btn_teal">CONTACT</p></a>
+            <div class="button-box btn_pullup">
+                <a href="mailto:garrisonridge@gmail.com"><p class="ghost_button ghost_btn_white">Register Now</p></a>
+            </div>
         </div>
 
-        <h4>SIGN UP FOR OUR NEWSLETTER</h4>
+        <!-- WORKSHOP DETAILS -->
+            <div class="workshop">
+                <h2 class="center-text">Get Out of a Rut</h2>
+                <h3 class="center-text">Learn 7 Highly Effective Techniques</h3>
 
-        <div class="form-area">
-            <form class="flex-form" id="newsletter" method="post" action="mailto:garrisonridge@gmail.com">
-                <label for="name"></label>
-                <input type="text"  name="name" placeholder="FirstName">
+                <div class="workshop_wrapper">
+                    <div class="flex_content workshop_description">
+                        <p>Get unstuck as you learn strategies to move you forward with confidence that you are headed in the right direction. You will gain </p>
 
-                <label for="email"></label>
-                <input type="text"  name="email" placeholder="Email Address">
+                        <ul>
+                            <li>Increased clarity</li>
+                            <li>Practical steps forward</li>
+                            <li>Ideas to implement immediately.</li>
+                        </ul>
+                    </div>
 
-                <input type="submit" value="SIGN UP">
-            </form>
-        </div>
+                    <div class="flex_content workshop_details">
+                        <p>DATE - Saturday, 10/21/17</p>
+                        <p>TIME - 10 a.m. - Noon </p>
+                        <p>PLACE - 1601 Ocean Dr. PVB 32250</p>
+                        <p>COST - $40</p>
+                    </div>
+                </div> <!-- closes .flex-wrapper-->
 
-        <!-- FACEBOOK ICON -->
-        <a href="https://www.facebook.com/45DegreesCoaching" target="blank">
-            <svg class="icon icon-facebook hvr-wobble-to-top-right"><use xlink:href="/assets/dist/img/symbol-defs.svg#icon-facebook"></use></svg>
-        </a>
+                <div class="center_center">
+                    <a href="workshop.html">
+                        <div>
+                            <button class="workshop_button btn_red">Register Now &gt&gt</button>
+                        </div>
+                    </a>
+                </div>
+            </div> <!--  closes .workshop -->
+        </main>
 
-        <p class="copyright">All Rights Reserved. Terms and Conditions Apply. &copy2017</p>
+    <!-- FOOTER -->
+        <footer class="footer">
+            <h2>CONTACT US</h2>
 
-    </footer>
+            <p>Let's work together!</p>
+            <p>We'll help you go farther.</p>
 
-</div> <!-- closing div for "container"-->
+            <div class="center-text button-box">
+                <a href="mailto:garrisonridge@gmail.com"><p class="ghost_button ghost_btn_teal">CONTACT</p></a>
+            </div>
+
+            <h4>SIGN UP FOR OUR NEWSLETTER</h4>
+
+            <div class="form-area">
+                <form class="flex-form" id="newsletter" method="post" action="mailto:garrisonridge@gmail.com">
+                    <label for="name"></label>
+                    <input type="text"  name="name" placeholder="FirstName">
+
+                    <label for="email"></label>
+                    <input type="text"  name="email" placeholder="Email Address">
+
+                    <input type="submit" value="SIGN UP">
+                </form>
+            </div>
+
+            <!-- FACEBOOK ICON -->
+            <a href="https://www.facebook.com/45DegreesCoaching" target="blank">
+                <svg class="icon icon-facebook hvr-wobble-to-top-right"><use xlink:href="/assets/dist/img/symbol-defs.svg#icon-facebook"></use></svg>
+            </a>
+
+            <p class="copyright">All Rights Reserved. Terms and Conditions Apply. &copy2017</p>
+
+        </footer>
+
+    </div> <!-- closing div for "container"-->
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -14,10 +14,11 @@
 </head>
 <body>
     <div class="container">
-
-<!-- NAVIGATION -->
-    <nav class="nav">
-        <h2 class="hide">navigation</h2>
+<!-- HAMBURGER NAVIGATION -->
+        <nav class="mobile-nav js-mobile-nav ">
+            <div class="mobile-nav__close">
+                <a href="#" class="js-mobile-nav-close"> &times;</a>
+            </div>
             <ul>
                 <li><a href="index.html"><img class="hvr-wobble-to-top-right" src="/assets/dist/img/logo_small.png" alt="45 Degrees logo" title="Go to 45 Degrees Home Page"></a></li>
 
@@ -31,91 +32,117 @@
 
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-    </nav>
-    <main>
-<!-- BILLBOARD -->
-        <div class="billboard_black_wrapper">
-            <div class="billboard_black billboard">
-                <div class="blog_title">
-                    <h1>3 Ways to Increase Clarity</h1>
-                    <h2>problem solving your work and personal life </h2>
+        </nav>
+
+        <div class="hamburger">
+            <a href="#" class="js-mobile-trigger">
+                <svg class="icon icon-menu"><use xlink:href="/assets/dist/img/symbol-defs.svg#icon-menu"></use></svg>
+            </a>
+
+        </div> <!-- closes hamburger menu -->
+
+    <!-- NAVIGATION -->
+        <nav class="nav">
+            <h2 class="hide">navigation</h2>
+                <ul>
+                    <li><a href="index.html"><img class="hvr-wobble-to-top-right" src="/assets/dist/img/logo_small.png" alt="45 Degrees logo" title="Go to 45 Degrees Home Page"></a></li>
+
+                    <li><a href="coaching.html">Coaching</a></li>
+
+                    <li><a href="trainings.html">Trainings</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="blog.html">Blog</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+        </nav>
+
+        <main>
+    <!-- BILLBOARD -->
+            <div class="billboard_black_wrapper">
+                <div class="billboard_black billboard">
+                    <div class="blog_title">
+                        <h1>3 Ways to Increase Clarity</h1>
+                        <h2>problem solving your work and personal life </h2>
+                    </div>
+                </div> <!--closer for .billboard_black -->
+            </div> <!-- close for .billboard_black_wrapper-->
+
+    <!-- BLOG POST -->
+            <div class="blog_content">
+                <div>
+                    <p>Don't leave your future to chance. Here are 3 habits that will make a positive difference in your attitude, actions, and results.</p>
                 </div>
-            </div> <!--closer for .billboard_black -->
-        </div> <!-- close for .billboard_black_wrapper-->
 
-<!-- BLOG POST -->
-        <div class="blog_content">
-            <div>
-                <p>Don't leave your future to chance. Here are 3 habits that will make a positive difference in your attitude, actions, and results.</p>
+                <div class="blog_image">
+                    <img src="/assets/dist/img/clear.png" alt="Increase clarity with focus." title="Increase clarity with focus.">
+                </div>
+
+                <div class="blog_copy">
+                    <h3>1. Focus First</h3>
+                        <p>A life coaching tip is to begin with a blank journal, a page which symbolizes a brand new blank day.</p>
+                        <p>Jot down rambling thoughts to help you see what's most important in the moment. Then jot down your daily "to do" list. Keep it manageable. No more than 5 items for one day.</p>
+
+                    <h3>2. Move</h3>
+                        <p>Get out of your head and into your body. Sometimes we think too much. When you find yourself under stress, get up and move. Take a walk. Get down on the floor and do 10 sit-ups. Play music and dance. </p>
+                        <p>We are created with body, mind, and spirit. In our hectic lives, it's common to spend a vast amount of time in our mind. Use your body. Feel better.</p>
+
+                    <h3>3. Say No</h3>
+                        <p>Whenever you say "yes" to something, you're saying "no" to something else. Stop being all things to all people. Make decisions that algin with your passion. You'll find enery and cheerfulness to profoundly impact your career, your relationships, adn your owne well-being.</p>
+                        <p>We only have 24 hours in a day. Some of those need to be used for sleeping. Say "no" to things that are eating up your time and not making a difference in your life.</p>
+                </div> <!-- close of body copy -->
+            </div> <!--close of blog content-->
+
+        <!-- LINKS TO OTHER BLOG ARTICLES -->
+            <div class="link_area link_white">
+                <h3>Learn More Ways to Get Clear </h3>
+
+                <div class="links">
+                    <a href=""><p>7 Problem Solving Insights</p></a>
+
+                    <a href=""><p>How to Change Focus</p></a>
+
+                    <a href=""><p>A Simple Guide for Finding the Path </p></a>
+                </div>
+            </div>
+        </main>
+    <!-- FOOTER -->
+        <footer class="footer">
+            <h2 class="footer_pullup">CONTACT US</h2>
+
+            <p>Let's work together!</p>
+            <p>We'll help you go farther.</p>
+
+            <div class="center-text button-box">
+                <a href="mailto:garrisonridge@gmail.com"><p class="ghost_button ghost_btn_teal">CONTACT</p></a>
             </div>
 
-            <div class="blog_image">
-                <img src="/assets/dist/img/clear.png" alt="Increase clarity with focus." title="Increase clarity with focus.">
+            <h4>SIGN UP FOR OUR NEWSLETTER</h4>
+
+            <div class="form-area">
+                <form class="flex-form" id="newsletter" method="post" action="mailto:garrisonridge@gmail.com">
+                    <label for="name"></label>
+                    <input type="text"  name="name" placeholder="FirstName">
+
+                    <label for="email"></label>
+                    <input type="text"  name="email" placeholder="Email Address">
+
+                    <input type="submit" value="SIGN UP">
+                </form>
             </div>
 
-            <div class="blog_copy">
-                <h3>1. Focus First</h3>
-                    <p>A life coaching tip is to begin with a blank journal, a page which symbolizes a brand new blank day.</p>
-                    <p>Jot down rambling thoughts to help you see what's most important in the moment. Then jot down your daily "to do" list. Keep it manageable. No more than 5 items for one day.</p>
+            <!-- FACEBOOK ICON -->
+            <a href="https://www.facebook.com/45DegreesCoaching" target="blank">
+                <svg class="icon icon-facebook hvr-wobble-to-top-right"><use xlink:href="/assets/dist/img/symbol-defs.svg#icon-facebook"></use></svg>
+            </a>
 
-                <h3>2. Move</h3>
-                    <p>Get out of your head and into your body. Sometimes we think too much. When you find yourself under stress, get up and move. Take a walk. Get down on the floor and do 10 sit-ups. Play music and dance. </p>
-                    <p>We are created with body, mind, and spirit. In our hectic lives, it's common to spend a vast amount of time in our mind. Use your body. Feel better.</p>
+            <p class="copyright">All Rights Reserved. Terms and Conditions Apply. &copy2017</p>
 
-                <h3>3. Say No</h3>
-                    <p>Whenever you say "yes" to something, you're saying "no" to something else. Stop being all things to all people. Make decisions that algin with your passion. You'll find enery and cheerfulness to profoundly impact your career, your relationships, adn your owne well-being.</p>
-                    <p>We only have 24 hours in a day. Some of those need to be used for sleeping. Say "no" to things that are eating up your time and not making a difference in your life.</p>
-            </div> <!-- close of body copy -->
-        </div> <!--close of blog content-->
+        </footer>
 
-    <!-- LINKS TO OTHER BLOG ARTICLES -->
-        <div class="link_area link_white">
-            <h3>Learn More Ways to Get Clear </h3>
-
-            <div class="links">
-                <a href=""><p>7 Problem Solving Insights</p></a>
-
-                <a href=""><p>How to Change Focus</p></a>
-
-                <a href=""><p>A Simple Guide for Finding the Path </p></a>
-            </div>
-        </div>
-    </main>
-<!-- FOOTER -->
-    <footer class="footer">
-        <h2 class="footer_pullup">CONTACT US</h2>
-
-        <p>Let's work together!</p>
-        <p>We'll help you go farther.</p>
-
-        <div class="center-text button-box">
-            <a href="mailto:garrisonridge@gmail.com"><p class="ghost_button ghost_btn_teal">CONTACT</p></a>
-        </div>
-
-        <h4>SIGN UP FOR OUR NEWSLETTER</h4>
-
-        <div class="form-area">
-            <form class="flex-form" id="newsletter" method="post" action="mailto:garrisonridge@gmail.com">
-                <label for="name"></label>
-                <input type="text"  name="name" placeholder="FirstName">
-
-                <label for="email"></label>
-                <input type="text"  name="email" placeholder="Email Address">
-
-                <input type="submit" value="SIGN UP">
-            </form>
-        </div>
-
-        <!-- FACEBOOK ICON -->
-        <a href="https://www.facebook.com/45DegreesCoaching" target="blank">
-            <svg class="icon icon-facebook hvr-wobble-to-top-right"><use xlink:href="/assets/dist/img/symbol-defs.svg#icon-facebook"></use></svg>
-        </a>
-
-        <p class="copyright">All Rights Reserved. Terms and Conditions Apply. &copy2017</p>
-
-    </footer>
-
-</div> <!-- closing div for "container"-->
+    </div> <!-- closing div for "container"-->
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

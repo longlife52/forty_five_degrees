@@ -14,10 +14,11 @@
 </head>
 <body>
     <div class="container">
-
-<!-- NAVIGATION -->
-    <nav class="nav">
-        <h2 class="hide">navigation</h2>
+<!-- HAMBURGER NAVIGATION -->
+        <nav class="mobile-nav js-mobile-nav ">
+            <div class="mobile-nav__close">
+                <a href="#" class="js-mobile-nav-close"> &times;</a>
+            </div>
             <ul>
                 <li><a href="index.html"><img class="hvr-wobble-to-top-right" src="/assets/dist/img/logo_small.png" alt="45 Degrees logo" title="Go to 45 Degrees Home Page"></a></li>
 
@@ -27,120 +28,145 @@
 
                 <li><a href="about.html">About</a></li>
 
-                <li class="selected"><a href="blog.html">Blog</a></li>
+                <li><a href="blog.html">Blog</a></li>
 
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-    </nav>
+        </nav>
 
-    <main>
-    <!-- BILLBOARD -->
-        <div class="billboard_black_wrapper">
-            <div class="billboard_black billboard">
-                <div class="blog_title">
-                <h1>Blog</h1>
-                <h2>tips for you to go farther</h2>
+        <div class="hamburger">
+            <a href="#" class="js-mobile-trigger">
+                <svg class="icon icon-menu"><use xlink:href="/assets/dist/img/symbol-defs.svg#icon-menu"></use></svg>
+            </a>
+
+        </div> <!-- closes hamburger menu -->
+
+    <!-- NAVIGATION -->
+        <nav class="nav">
+            <h2 class="hide">navigation</h2>
+                <ul>
+                    <li><a href="index.html"><img class="hvr-wobble-to-top-right" src="/assets/dist/img/logo_small.png" alt="45 Degrees logo" title="Go to 45 Degrees Home Page"></a></li>
+
+                    <li><a href="coaching.html">Coaching</a></li>
+
+                    <li><a href="trainings.html">Trainings</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li class="selected"><a href="blog.html">Blog</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+        </nav>
+
+        <main>
+        <!-- BILLBOARD -->
+            <div class="billboard_black_wrapper">
+                <div class="billboard_black billboard">
+                    <div class="blog_title">
+                    <h1>Blog</h1>
+                    <h2>tips for you to go farther</h2>
+                </div>
+                </div> <!--closer for .billboard_black -->
+            </div> <!--closer for .billboard_black_wrapper -->
+
+        <!-- BLOG ARTICLE LIST -->
+            <div class="blog_list">
+                <div class="blog_list_item">
+                    <div class="blog_list_img">
+                        <img src="/assets/dist/img/clarity_large.jpg" alt="" title="">
+                    </div>
+
+                    <div class="blog_list_text">
+                        <h2>Clarity</h2>
+                        <p class="date">August 25, 2017</p>
+                        <p>Make sense out of complicated matters by understanding the facts and laying out the puzzle peices. Envision a future and think more clearly. As you determine your options, you will discover... </p>
+                        <a href="post.html">
+                            <div class="blog_list_button">
+                                <button class="btn_red">Read More &gt&gt</button>
+                            </div>
+                        </a>
+                    </div>
+                </div> <!-- close blog_list_item -->
+
+                <div class="blog_list_item">
+                    <div class="blog_list_img">
+                        <img src="/assets/dist/img/horse_large.jpg" alt="" title="">
+                    </div>
+
+                    <div class="blog_list_text">
+                        <h2>Practical Action</h2>
+                        <p class="date">September 1, 2017</p>
+                        <p>Roll up your sleeves and get to work with an action plan post each session. We outline concrete steps to achieve changes. Your life will be forever changed and the world will love you if you just... </p>
+                        <a href="post.html">
+                            <div class="blog_list_button">
+                                <button class="btn_red">Read More &gt&gt</button>
+                            </div>
+                        </a>
+                    </div>
+                </div> <!-- close blog_list_item -->
+
+                <div class="blog_list_item">
+                    <div class="blog_list_img">
+                        <img src="/assets/dist/img/growth_large.jpg" alt="" title="">
+                    </div>
+
+                    <div class="blog_list_text">
+                        <h2>Growth</h2>
+                        <p class="date">September 15, 2017</p>
+                        <p>Ensure you path forward aligns with personal fullfilment and wholeness. Learn to set your personal bar higher as you discover the potential that will propel you forward as you leap into... </p>
+                        <a href="post.html">
+                            <div class="blog_list_button">
+                                <button class="btn_red">Read More &gt&gt</button>
+                            </div>
+                        </a>
+                    </div>
+                </div> <!-- close blog_list_item -->
+            </div> <!-- close for .blog_list -->
+
+        <!-- BILLBOARD CALL TO ACTION  -->
+            <div class="billboard_teal">
+                <h2>WANT MORE?</h2>
+                <div class="center-text button-box">
+                    <a href="mailto:garrisonridge@gmail.com"><p class="ghost_button ghost_btn_white">Blog Archive</p></a>
+                </div>
             </div>
-            </div> <!--closer for .billboard_black -->
-        </div> <!--closer for .billboard_black_wrapper -->
+        </main>
+    <!-- FOOTER -->
+        <footer class="footer">
+            <h2 class="footer_pullup">CONTACT US</h2>
 
-    <!-- BLOG ARTICLE LIST -->
-        <div class="blog_list">
-            <div class="blog_list_item">
-                <div class="blog_list_img">
-                    <img src="/assets/dist/img/clarity_large.jpg" alt="" title="">
-                </div>
+            <p>Let's work together!</p>
+            <p>We'll help you go farther.</p>
 
-                <div class="blog_list_text">
-                    <h2>Clarity</h2>
-                    <p class="date">August 25, 2017</p>
-                    <p>Make sense out of complicated matters by understanding the facts and laying out the puzzle peices. Envision a future and think more clearly. As you determine your options, you will discover... </p>
-                    <a href="post.html">
-                        <div class="blog_list_button">
-                            <button class="btn_red">Read More &gt&gt</button>
-                        </div>
-                    </a>
-                </div>
-            </div> <!-- close blog_list_item -->
-
-            <div class="blog_list_item">
-                <div class="blog_list_img">
-                    <img src="/assets/dist/img/horse_large.jpg" alt="" title="">
-                </div>
-
-                <div class="blog_list_text">
-                    <h2>Practical Action</h2>
-                    <p class="date">September 1, 2017</p>
-                    <p>Roll up your sleeves and get to work with an action plan post each session. We outline concrete steps to achieve changes. Your life will be forever changed and the world will love you if you just... </p>
-                    <a href="post.html">
-                        <div class="blog_list_button">
-                            <button class="btn_red">Read More &gt&gt</button>
-                        </div>
-                    </a>
-                </div>
-            </div> <!-- close blog_list_item -->
-
-            <div class="blog_list_item">
-                <div class="blog_list_img">
-                    <img src="/assets/dist/img/growth_large.jpg" alt="" title="">
-                </div>
-
-                <div class="blog_list_text">
-                    <h2>Growth</h2>
-                    <p class="date">September 15, 2017</p>
-                    <p>Ensure you path forward aligns with personal fullfilment and wholeness. Learn to set your personal bar higher as you discover the potential that will propel you forward as you leap into... </p>
-                    <a href="post.html">
-                        <div class="blog_list_button">
-                            <button class="btn_red">Read More &gt&gt</button>
-                        </div>
-                    </a>
-                </div>
-            </div> <!-- close blog_list_item -->
-        </div> <!-- close for .blog_list -->
-
-    <!-- BILLBOARD CALL TO ACTION  -->
-        <div class="billboard_teal">
-            <h2>WANT MORE?</h2>
             <div class="center-text button-box">
-                <a href="mailto:garrisonridge@gmail.com"><p class="ghost_button ghost_btn_white">Blog Archive</p></a>
+                <a href="mailto:garrisonridge@gmail.com"><p class="ghost_button ghost_btn_teal">CONTACT</p></a>
             </div>
-        </div>
-    </main>
-<!-- FOOTER -->
-    <footer class="footer">
-        <h2 class="footer_pullup">CONTACT US</h2>
 
-        <p>Let's work together!</p>
-        <p>We'll help you go farther.</p>
+            <h4>SIGN UP FOR OUR NEWSLETTER</h4>
 
-        <div class="center-text button-box">
-            <a href="mailto:garrisonridge@gmail.com"><p class="ghost_button ghost_btn_teal">CONTACT</p></a>
-        </div>
+            <div class="form-area">
+                <form class="flex-form" id="newsletter" method="post" action="mailto:garrisonridge@gmail.com">
+                    <label for="name"></label>
+                    <input type="text"  name="name" placeholder="FirstName">
 
-        <h4>SIGN UP FOR OUR NEWSLETTER</h4>
+                    <label for="email"></label>
+                    <input type="text"  name="email" placeholder="Email Address">
 
-        <div class="form-area">
-            <form class="flex-form" id="newsletter" method="post" action="mailto:garrisonridge@gmail.com">
-                <label for="name"></label>
-                <input type="text"  name="name" placeholder="FirstName">
+                    <input type="submit" value="SIGN UP">
+                </form>
+            </div>
 
-                <label for="email"></label>
-                <input type="text"  name="email" placeholder="Email Address">
+            <!-- FACEBOOK ICON -->
+            <a href="https://www.facebook.com/45DegreesCoaching" target="blank">
+                <svg class="icon icon-facebook hvr-wobble-to-top-right"><use xlink:href="/assets/dist/img/symbol-defs.svg#icon-facebook"></use></svg>
+            </a>
 
-                <input type="submit" value="SIGN UP">
-            </form>
-        </div>
+            <p class="copyright">All Rights Reserved. Terms and Conditions Apply. &copy2017</p>
 
-        <!-- FACEBOOK ICON -->
-        <a href="https://www.facebook.com/45DegreesCoaching" target="blank">
-            <svg class="icon icon-facebook hvr-wobble-to-top-right"><use xlink:href="/assets/dist/img/symbol-defs.svg#icon-facebook"></use></svg>
-        </a>
+        </footer>
 
-        <p class="copyright">All Rights Reserved. Terms and Conditions Apply. &copy2017</p>
-
-    </footer>
-
-</div> <!-- closing div for "container"-->
+    </div> <!-- closing div for "container"-->
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

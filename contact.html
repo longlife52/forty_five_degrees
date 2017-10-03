@@ -14,10 +14,11 @@
 </head>
 <body>
     <div class="container">
-
-<!-- NAVIGATION -->
-    <nav class="nav">
-        <h2 class="hide">navigation</h2>
+<!-- HAMBURGER NAVIGATION -->
+        <nav class="mobile-nav js-mobile-nav ">
+            <div class="mobile-nav__close">
+                <a href="#" class="js-mobile-nav-close"> &times;</a>
+            </div>
             <ul>
                 <li><a href="index.html"><img class="hvr-wobble-to-top-right" src="/assets/dist/img/logo_small.png" alt="45 Degrees logo" title="Go to 45 Degrees Home Page"></a></li>
 
@@ -29,63 +30,89 @@
 
                 <li><a href="blog.html">Blog</a></li>
 
-                <li class="selected"><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-    </nav>
+        </nav>
 
-    <main>
-        <!-- SELL CONTENT -->
-        <div class="flex_wrapper">
-            <!-- IMAGE -->
-            <div class="flex_content">
-                <img class="content_img" src="/assets/dist/img/keys.jpg" alt="45 Degrees individual coaching turns the light on." title="45 Degress coaching turns the light on." >
-            </div>
+        <div class="hamburger">
+            <a href="#" class="js-mobile-trigger">
+                <svg class="icon icon-menu"><use xlink:href="/assets/dist/img/symbol-defs.svg#icon-menu"></use></svg>
+            </a>
 
-        <!-- CONTENT -->
+        </div> <!-- closes hamburger menu -->
 
-            <div class="flex_content billboard_teal">
-                <div class="contact_call">
-                    <h2>let's Go!</h2>
-                    <p>You drive. We'll navigate.</p>
+    <!-- NAVIGATION -->
+        <nav class="nav">
+            <h2 class="hide">navigation</h2>
+                <ul>
+                    <li><a href="index.html"><img class="hvr-wobble-to-top-right" src="/assets/dist/img/logo_small.png" alt="45 Degrees logo" title="Go to 45 Degrees Home Page"></a></li>
+
+                    <li><a href="coaching.html">Coaching</a></li>
+
+                    <li><a href="trainings.html">Trainings</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="blog.html">Blog</a></li>
+
+                    <li class="selected"><a href="contact.html">Contact</a></li>
+                </ul>
+        </nav>
+
+        <main>
+            <!-- SELL CONTENT -->
+            <div class="flex_wrapper">
+                <!-- IMAGE -->
+                <div class="flex_content">
+                    <img class="content_img" src="/assets/dist/img/keys.jpg" alt="45 Degrees individual coaching turns the light on." title="45 Degress coaching turns the light on." >
                 </div>
+
+            <!-- CONTENT -->
+
+                <div class="flex_content billboard_teal">
+                    <div class="contact_call">
+                        <h2>let's Go!</h2>
+                        <p>You drive. We'll navigate.</p>
+                    </div>
+                </div>
+            </div> <!-- closes .flex_wrapper -->
+        </main>
+
+    <!-- FOOTER -->
+        <footer class="footer">
+            <h2 class="footer_pullup">CONTACT US</h2>
+
+            <p>Let's work together!</p>
+            <p>We'll help you go farther.</p>
+
+            <div class="center-text button-box">
+                <a href="mailto:garrisonridge@gmail.com"><p class="ghost_button ghost_btn_teal">CONTACT</p></a>
             </div>
-        </div> <!-- closes .flex_wrapper -->
-    </main>
-<!-- FOOTER -->
-    <footer class="footer">
-        <h2 class="footer_pullup">CONTACT US</h2>
 
-        <p>Let's work together!</p>
-        <p>We'll help you go farther.</p>
+            <h4>SIGN UP FOR OUR NEWSLETTER</h4>
 
-        <div class="center-text button-box">
-            <a href="mailto:garrisonridge@gmail.com"><p class="ghost_button ghost_btn_teal">CONTACT</p></a>
-        </div>
+            <div class="form-area">
+                <form class="flex-form" id="newsletter" method="post" action="mailto:garrisonridge@gmail.com">
+                    <label for="name"></label>
+                    <input type="text"  name="name" placeholder="FirstName">
 
-        <h4>SIGN UP FOR OUR NEWSLETTER</h4>
+                    <label for="email"></label>
+                    <input type="text"  name="email" placeholder="Email Address">
 
-        <div class="form-area">
-            <form class="flex-form" id="newsletter" method="post" action="mailto:garrisonridge@gmail.com">
-                <label for="name"></label>
-                <input type="text"  name="name" placeholder="FirstName">
+                    <input type="submit" value="SIGN UP">
+                </form>
+            </div>
 
-                <label for="email"></label>
-                <input type="text"  name="email" placeholder="Email Address">
+            <!-- FACEBOOK ICON -->
+            <a href="https://www.facebook.com/45DegreesCoaching" target="blank">
+                <svg class="icon icon-facebook hvr-wobble-to-top-right"><use xlink:href="/assets/dist/img/symbol-defs.svg#icon-facebook"></use></svg>
+            </a>
 
-                <input type="submit" value="SIGN UP">
-            </form>
-        </div>
+            <p class="copyright">All Rights Reserved. Terms and Conditions Apply. &copy2017</p>
 
-        <!-- FACEBOOK ICON -->
-        <a href="https://www.facebook.com/45DegreesCoaching" target="blank">
-            <svg class="icon icon-facebook hvr-wobble-to-top-right"><use xlink:href="/assets/dist/img/symbol-defs.svg#icon-facebook"></use></svg>
-        </a>
+        </footer>
 
-        <p class="copyright">All Rights Reserved. Terms and Conditions Apply. &copy2017</p>
-
-    </footer>
-
-</div> <!-- closing div for "container"-->
+    </div> <!-- closing div for "container"-->
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
