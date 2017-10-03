@@ -1475,11 +1475,23 @@ input[type=submit]:focus {
 }
 
 /* WORKSHOPS */
+.hero_mobile_img_padding {
+  padding-top: 3.125em;
+  margin-bottom: 0;
+  background-color: #0b0c10;
+}
+
+@media (min-width: 750px) {
+  .hero_mobile_img_padding {
+    padding-top: 0;
+  }
+}
+
 .btn_pullup {
   display: none;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 750px) {
   .btn_pullup {
     display: block;
     position: absolute;
@@ -1491,6 +1503,9 @@ input[type=submit]:focus {
 
 @media (min-width: 1000px) {
   .btn_pullup {
+    display: block;
+    position: absolute;
+    z-index: 100;
     top: 25em;
     left: 12.5em;
   }
