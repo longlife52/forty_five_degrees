@@ -1,12 +1,13 @@
 # Semester Project - MMC6145, Lisa Long
 
 ## Github Project Link
-[Lisa's Project on Github.]()
-[Here's the link to the project on my web host.]()
-[Here's the project on W3C's Validator.]()
-[Here's the project on the HTML5 Outliner.]()
+- Uses Sass
+- Uses Prepros
+- Javascript libraries
+    - [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html)
+    - [Strip](http://stripjs.com/)
 
-## Resources
+## Project Resources
 Referred to and utilized Amy Dutton's video lectures + broiler plate to provide foundation for project.
 
 Used code from [this source](http://ianlunn.github.io/Hover/) to create hover effect on logo + Facebook icon.
@@ -20,7 +21,7 @@ For the Flexbox nav and single line Flexbox form, I referred to tutorials from [
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
 
-## Comments
+## Comments for Amy and Efren
 Per the grading rubric, here's a map to the required elements.
 
 ### Use of Sass

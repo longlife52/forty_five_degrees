@@ -1,5 +1,5 @@
 //@prepros-append vendor/owl.carousel.js
-//@prepros-append vendor/strip.pkgd.min.js
+//@prepros-append vendor/strip.pkgd.js
 //@prepros-append vendor/smoothscroll.js
 //@prepros-append vendor/jquery.scrollUp.min.js
 //= include ../../../bower_components/jquery/dist/jquery.js
