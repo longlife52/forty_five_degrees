@@ -22,6 +22,7 @@ function SiteController($) {
 
     };
 
+//this code is from Amy -- add data-scroll to <a> about.html
     function initSmoothScrolling() {
         $('a[data-scroll]').click(function (e) {
             e.preventDefault();
@@ -33,7 +34,6 @@ function SiteController($) {
             }, 1500);
         });
     }
-
 
     function initOwl() {
         $('.owl-carousel').owlCarousel({
