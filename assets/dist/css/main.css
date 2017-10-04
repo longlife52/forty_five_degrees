@@ -2252,6 +2252,18 @@ input[type=submit]:focus {
 }
 
 /* owl carousel styles */
+.owl-dots {
+  display: none;
+}
+
+@media (min-width: 650px) {
+  .owl-dots {
+    display: block;
+    float: left;
+    margin-left: 1.875em;
+  }
+}
+
 .carousel_wrapper {
   background-color: #1f2833;
   padding: 1.25em;

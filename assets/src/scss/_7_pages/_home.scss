@@ -86,6 +86,16 @@
 }
 
 /* owl carousel styles */
+.owl-dots {
+    display: none;
+
+    @include breakpoint (small) {
+        display: block;
+        float: left;
+        margin-left: em(30px);
+    }
+}
+
 .carousel_wrapper {
     background-color: $dark-grey;
     padding: em(20px);
