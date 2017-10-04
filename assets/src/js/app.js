@@ -18,13 +18,22 @@ function SiteController($) {
         initFitVid();
         initMobileNav();
         initOwl();
-        initSmoothScroll();
+        initSmoothScrolling();
 
     };
 
-    function initSmoothScroll() {
-        $('a').smoothScroll();
+    function initSmoothScrolling() {
+        $('a[data-scroll]').click(function (e) {
+            e.preventDefault();
+            var goto = $(this).attr('href');
+            var contentPosTop = $(goto).position().top - 50;
+
+            $('html, body').stop().animate({
+                scrollTop: contentPosTop
+            }, 1500);
+        });
     }
+
 
     function initOwl() {
         $('.owl-carousel').owlCarousel({
